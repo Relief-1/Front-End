@@ -1,4 +1,4 @@
-     <!-- PAGE LOADING TRANSITIONS -->
+     // PAGE LOADING TRANSITIONS
 	 $(document).ready(function() {
 				$(".black_block").css("display", "none"); 
 				$(".black_block_ribbon").css("display", "none"); 
@@ -18,7 +18,7 @@
 				$(".photo_credit").fadeIn('fast');
 			});
     
-    <!-- HIDE INPUT'S VALUE SCRIPT -->
+    // HIDE INPUT'S VALUE SCRIPT
                     window.onload = function() {
               applyDefaultValue(document.getElementById('email','email2'), 'enter your email to receive updates');
             }
@@ -39,7 +39,7 @@
               }
             }
      
-      	<!-- SLIDING DIV SURVIVOR -->
+      	// SLIDING DIV SURVIVOR
 		$(document).ready(function(){
 		$('.being_survivor').click(function(){
 			if ($(".slidingDiv_survivor").is(":hidden")) {
@@ -56,7 +56,7 @@
 		});
 		});
 		
-        <!-- SLIDING DIV VOLUNTEER -->
+        // SLIDING DIV VOLUNTEER 
 		$(document).ready(function(){
 		$('.being_volunteer').click(function(){
 			if ($(".slidingDiv_volunteer").is(":hidden")) {
@@ -72,7 +72,7 @@
 		});
 		});
 		
-        <!-- SLIDING DIV ORGANIZATION -->
+        // SLIDING DIV ORGANIZATION 
 		$(document).ready(function(){
 		$('.being_organization').click(function(){
 			if ($(".slidingDiv_organization").is(":hidden")) {
@@ -88,7 +88,7 @@
 		});
 		});
 		
-        <!-- BUTTONS PRESSED STATES -->
+        // BUTTONS PRESSED STATES
 		$(document).ready(function() {
 			var navItems = $('[class^=being_]');
 			navItems.click(function(){
@@ -97,7 +97,7 @@
 			});
 		})
     
-        <!-- BACK TO TO ANCHOR SCRIPT -->
+        // BACK TO TO ANCHOR SCRIPT 
 		$(document).ready(function() {
 			$("a.anchorLink").anchorAnimate()
 			//back to top anchor

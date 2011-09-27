@@ -1,4 +1,4 @@
-<!-- PINS REMAIN BLUE ONCE SELECTED -->
+// PINS REMAIN BLUE ONCE SELECTED 
 $(document).ready(function() {
 	var navItems = $('[class^=pin]');
 		navItems.click(function(){
