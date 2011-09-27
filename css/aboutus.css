@@ -1,0 +1,170 @@
+/*		
+
+	
+	  _____      _ _       __ __ 
+	 |  __ \    | (_)     / _/_ |
+	 | |__) |___| |_  ___| |_ | |
+	 |  _  // _ \ | |/ _ \  _|| |
+	 | | \ \  __/ | |  __/ |  | |
+	 |_|  \_\___|_|_|\___|_|  |_|
+								 
+	
+	- project : relief1.org V1.0
+
+
+/*--------------------------------------------------------
+           BODY
+--------------------------------------------------------*/
+body {
+	margin:0;
+	padding:0;
+	min-height:500px;
+	min-width:500px;
+	background:url(../img/bg_noise_medium.png) !important;
+}
+
+/*--------------------------------------------------------
+           ABOUT US CONTAINER
+--------------------------------------------------------*/
+#about_us_wrapper {
+	margin:0 auto;
+	width:960px;
+}
+#about_us_container {
+	margin:0 auto;
+	width:960px;
+	height:910px;
+	margin-top:40px;
+	margin-bottom:40px;
+
+	background:#FFF;
+	
+	border-radius:5px;
+	-moz-border-radius:5px;
+	-webkit-border-radius:5px;
+	
+	-moz-box-shadow:0 0 5px #999;
+	-webkit-box-shadow:0 0 5px #999;
+	box-shadow:0 0 5px #999;
+}
+
+/*--------------------------------------------------------
+           HEADING
+--------------------------------------------------------*/
+.heading {
+	margin:0 auto;
+	position:relative;
+	width:100%;
+	height:150px;
+	font-family:'Lucida Grande','Lucida Sans Unicode', sans-serif;
+	margin-top:40px;
+	text-align:center;
+	font-size:28px;
+	line-height:100px;
+	font-weight:bold;
+	background:url(../img/quote_shadow.jpg) center 100px no-repeat;
+	color:#444;
+}
+
+/*--------------------------------------------------------
+           MAP
+--------------------------------------------------------*/
+#map {
+	position:relative;
+	width:1060px;
+	height:460px;
+	margin-left:50px;
+	float:left;
+	z-index:99;
+	
+	border-radius:5px;
+	-moz-border-radius:5px;
+	-webkit-border-radius:5px;
+}
+
+/*--------------------------------------------------------
+           LEGEND
+--------------------------------------------------------*/
+.whosdoing {
+	width:860px;
+	padding-bottom:10px;
+	margin-left:0px;
+	margin-top:10px;
+	font-size:18px;
+	font-weight:bold;
+	float:left;
+}
+.what_position {
+	width:860px;
+	margin-left:0px;
+	margin-top:10px;
+	font-size:12px;
+	float:left;
+}
+.executive_container {
+	width:130px;
+	float:left;
+}
+.executive {
+	width:130px;
+	padding-bottom:3px;
+	border-bottom:1px solid #CCC;
+	float:left;
+}
+.marketing_container {
+	width:130px;
+	margin-left:35px;
+	float:left;
+}
+.marketing {
+	width:130px;
+	margin-left:35px;
+	padding-bottom:3px;
+	border-bottom:1px solid #CCC;
+	float:left;
+	
+}
+.backend_container {
+	width:130px;
+	margin-left:35px;
+	float:left;
+}
+.backend {
+	width:130px;
+	margin-left:35px;
+	padding-bottom:3px;
+	border-bottom:1px solid #CCC;
+	float:left;
+}
+.frontend_container {
+	width:130px;
+	margin-left:35px;
+	float:left;
+}
+.frontend {
+	width:130px;
+	margin-left:35px;
+	padding-bottom:3px;
+	border-bottom:1px solid #CCC;
+	float:left;
+}
+.content_container {
+	width:130px;
+	margin-left:35px;
+	float:left;
+}
+.content {
+	width:130px;
+	margin-left:35px;
+	padding-bottom:3px;
+	border-bottom:1px solid #CCC;
+	float:left;
+}
+
+/*--------------------------------------------------------
+           LEGEND
+--------------------------------------------------------*/
+.flag_space {
+	margin-bottom:2px;
+	margin-left:2px;
+}

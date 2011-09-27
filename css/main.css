@@ -1,0 +1,225 @@
+/*		
+
+	
+	  _____      _ _       __ __ 
+	 |  __ \    | (_)     / _/_ |
+	 | |__) |___| |_  ___| |_ | |
+	 |  _  // _ \ | |/ _ \  _|| |
+	 | | \ \  __/ | |  __/ |  | |
+	 |_|  \_\___|_|_|\___|_|  |_|
+								 
+	
+	- project : relief1.org V1.0
+
+
+/*--------------------------------------------------------
+           DEFAULT
+--------------------------------------------------------*/
+div { display:block;font-family:'Lucida Grande','Lucida Sans Unicode', sans-serif;}
+p { font-size:12px; }
+.blue { color:#89CEDE;}
+.orange { color:#ff7f38;}
+.clear {clear:both;}
+
+/*--------------------------------------------------------
+           HEADER
+--------------------------------------------------------*/
+#header {
+	background:#333;
+	width:100%;
+	height:45px;
+	
+	-moz-box-shadow:inset 0 1px 5px #000;
+	-webkit-box-shadow:inset 0 1px 5px #000;
+	box-shadow:inset 0 1px 5px #000;
+}
+#header_container {
+	margin:0 auto;
+	width:960px;
+	height:65px;
+}
+#logo {
+	width:200px;
+	height:65px;
+	float:left;
+}
+#nav {
+	width:720px;
+	height:45px;
+	float:right;
+}
+#nav ul li {
+	display:inline;
+	list-style:none;
+	color:#FFF;
+	text-shadow:0 2px 0 #111;
+	font-size:14px;
+	line-height:12px;
+	font-family:'Lucida Grande','Lucida Sans Unicode', sans-serif;
+	padding-left:30px;
+	padding-right:25px;
+	float:right;
+}
+#nav ul li a {
+	color:#FFF;
+	text-decoration:none;
+}
+
+/*--------------------------------------------------------
+          NAV TIP
+--------------------------------------------------------*/
+.nav_tip_home {
+	position:relative;
+	top:36px;
+	left:150px;
+	width:20px;
+	height:20px;
+	background:url(../img/nav_home_tip.png) no-repeat;
+	float:right;
+}
+.nav_tip_blog {
+	position:relative;
+	top:36px;
+	left:305px;
+	width:20px;
+	height:20px;
+	background:url(../img/nav_tip.png) no-repeat;
+	float:right;
+}
+.nav_tip_job {
+	position:relative;
+	top:36px;
+	left:330px;
+	width:20px;
+	height:20px;
+	background:url(../img/nav_tip.png) no-repeat;
+	float:right;
+}
+.nav_tip_about_us {
+	position:relative;
+	top:36px;
+	left:445px;
+	width:20px;
+	height:20px;
+	background:url(../img/nav_tip.png) no-repeat;
+	float:right;
+}
+.nav_tip_sponsor {
+	position:relative;
+	top:36px;
+	left:565px;
+	width:20px;
+	height:20px;
+	background:url(../img/nav_tip.png) no-repeat;
+	float:right;
+}
+.nav_tip_contact {
+	position:relative;
+	top:36px;
+	left:680px;
+	width:20px;
+	height:20px;
+	background:url(../img/nav_tip.png) no-repeat;
+	float:right;
+}
+
+
+/*--------------------------------------------------------
+          MAIN FOOTER
+--------------------------------------------------------*/
+#footer {
+	width:100%;
+	margin:0 auto;
+	float:left;
+}
+#main_footer {
+	width:100%;
+	height:190px;
+	padding-top:40px;
+	background:url(../img/textile_footer.png);
+	z-index:9999;
+	
+	-moz-box-shadow:inset 0 5px 15px #222;
+	-webkit-box-shadow:inset 0 5px 15px #222;
+	box-shadow:inset 0 5px 15px #222;
+}
+.main_footer_container {
+	margin:0 auto;
+	width:960px;
+	height:180px;
+}
+.main_footer_title {
+	display:block;
+	width:150px;
+	margin-bottom:10px;
+	padding-bottom:5px;
+	border-bottom:dotted 1px #999;
+	color:#FFF;
+	font-size:16px;
+	font-weight:bold;
+	float:left;
+}
+.main_footer_text {
+	display:block;
+	width:155px;
+	height:140px;
+	margin-left:100px;
+	margin-top:-20px;
+	font-size:12px;
+	color:#DDD;
+	text-shadow:0 1px 0 #222;
+	float:left;
+}
+.footer_link_blog {
+	position:relative;
+	top:-35px;
+	width:20px;
+	height:20px;
+	background:url(../img/footer_icon_blog.png) center center;
+	float:right;
+}
+.footer_link_job {
+	position:relative;
+	top:-35px;
+	right:5px;
+	width:20px;
+	height:20px;
+	background:url(../img/footer_icon_job.png) center center;
+	float:right;
+}
+.footer_link_sponsor {
+	position:relative;
+	top:-35px;
+	right:5px;
+	width:20px;
+	height:20px;
+	background:url(../img/footer_icon_sponsor.png) center center;
+	float:right;
+}
+.footer_link_about {
+	position:relative;
+	top:-35px;
+	right:5px;
+	width:20px;
+	height:20px;
+	background:url(../img/footer_icon_about.png) center center;
+	float:right;
+}
+.footer_link {
+	text-decoration:none;
+	color:#89CEDE;
+}
+.footer_link:hover {
+	text-decoration:underline;
+}
+.legal {
+	position:relative;
+	top:20px;
+	margin:0 auto;
+	width:960px;
+	height:35px;
+	color:#777;
+	font-size:11px;
+	text-align:center;
+	text-shadow:0 1px 0 #222;
+}
