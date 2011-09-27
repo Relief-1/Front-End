@@ -1,0 +1,302 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+
+<!-- HEAD START -->
+<head>
+
+	<!-- DESCRIPTION -->
+    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+    <title>Jobs</title>
+
+    <!-- CSS -->
+    <link rel="stylesheet" href="css/main.css" type="text/css">
+    <link rel="stylesheet" href="css/jobs.css" type="text/css">
+    
+    <!-- SCRIPT -->
+    <script type="text/javascript" src="http://ajax.googleapis.com/ajax/libs/jquery/1.4.2/jquery.min.js"></script>
+	<script type="text/javascript" src="http://ajax.googleapis.com/ajax/libs/jqueryui/1.7.2/jquery-ui.min.js"></script>
+    
+	<!-- SLIDING DIV VOLUNTEER -->
+    <script type="text/javascript">
+	$(document).ready(function(){
+		$('#integrity').click(function(){
+			if ($(".slidingDiv_integrity").is(":hidden")) {
+
+			  // Sliding div that contain "INTEGRITY"	
+			  $(".slidingDiv_integrity").fadeIn("fast");
+			} else {
+				$(".slidingDiv_integrity").fadeOut("fast");	
+			}
+		});
+		});
+	 </script>
+    
+     <!-- BACK TO TO ANCHOR SCRIPT -->
+     <script type="text/javascript">
+		$(document).ready(function() {
+			$("a.anchorLink").anchorAnimate()
+			//back to top anchor
+			$("a.anchorLink1").anchorAnimate()
+			$("a.anchorLink2").anchorAnimate()
+			$("a.anchorLink3").anchorAnimate()
+		});
+		jQuery.fn.anchorAnimate = function(settings) {
+		
+			settings = jQuery.extend({
+				speed : 600
+			}, settings);	
+			
+			return this.each(function(){
+				var caller = this
+				$(caller).click(function (event) {	
+					event.preventDefault()
+					var locationHref = window.location.href
+					var elementClick = $(caller).attr("href")
+					
+					var destination = $(elementClick).offset().top;
+					$("html:not(:animated),body:not(:animated)").animate({ scrollTop: destination}, settings.speed, function() {
+						window.location.hash = elementClick
+					});
+					return false;
+				})
+			})
+		}
+		</script>
+
+    
+</head>
+
+
+<body>
+
+	<!-- HEADER START -->	            
+	<div id="header">
+    	<div id="header_container">
+        
+        	<div id="logo"></div>
+            <div id="nav">
+                <ul>
+                    <li><a href="contact.html">Contact</a></li>
+                    <li><a href="sponsors.html">Sponsors</a></li>
+                    <li><a href="about_us.html">Our Team</a></li>
+                    <li><a href="jobs.html" style="color:#89CEDE;">Join Us</a></li>
+                    <li><a href=""> Blog</a></li>
+                    <li><a href="index.html">Home</a></li>
+                </ul>
+            </div>
+            <div class="nav_tip_job"></div>
+            
+        </div>
+    </div>
+	<!-- HEADER END -->
+
+<!-- JOB CONTAINER START -->  
+<div id="job_container">
+    
+    <div class="job_intro">Join our team !</div>
+    <div class="photo_join_us"></div>
+   	<div class="job_text_bg"></div>
+        <div class="job_text_intro">
+        <p>We are looking for like-minded people who want to make a difference in the world. <br/>Got what it takes?  Help us make it happen.</p>
+        </div>
+        <div class="job_text_bg_shadow"></div>
+    
+    <div class="value_intro">Our values</div>
+    <!-- VALUE START -->  
+    <div class="value_wrapper">
+    
+        <div class="value_container" id="integrity" style="position:relative; left:320px; top:23px;">
+            <div class="value_circle"><div class="value_title">Integrity</div></div>
+        </div>
+        
+         <div class="value_container" style="position:relative; left:90px; top:70px;">
+            <div class="value_circle"><div class="value_title">Quality</div></div>
+        </div>
+        
+         <div class="value_container" style="position:relative; left:40px; top:70px;">
+           <div class="value_circle"><div class="value_title">Respect</div></div>
+         </div>
+         
+         <div class="value_container" style="position:relative; right:235px; top:135px;">
+            <div class="value_circle"><div class="value_title">Service</div></div>
+        </div>
+        
+        <div class="value_container"  style="position:relative; right:315px; top:135px;">
+            <div class="value_circle"><div class="value_title">Teamwork</div></div>
+        </div>
+        
+        <div class="value_container"  style="position:relative; left:383px; top:115px;">
+        	<div class="core_value_circle"></div>
+        </div>
+        
+                <div class="slidingDiv_integrity">Integrity</div>
+
+    </div>
+    <!-- VALUE END -->
+    
+    <div class="position_intro">Check our available positions</div>
+    <div class="job_btn_container">
+    <a href="#technical" class="anchorLink" style="color:#111; text-decoration:none;"><div class="shortcut_technical">Technical (4)</div></a>
+    <a href="#design" class="anchorLink" style="color:#111; text-decoration:none;"><div class="shortcut_design">Design (2)</div></a>
+    <a href="#media" class="anchorLink" style="color:#111; text-decoration:none;"><div class="shortcut_media">Media (3)</div></a>
+    <a href="#other" class="anchorLink" style="color:#111; text-decoration:none;"><div class="shortcut_other">Volunteers (9)</div></a>
+    </div>
+    
+    <!-- TECHNICAL JOBS CONTAINER START -->  
+    <div class="job_board_container">
+    <a  id="technical" class="anchor1"><div style="padding-bottom:5px; border-bottom:solid 1px #222; margin-bottom:10px; padding-top:15px;">Technical positions</div></a>
+    <br/>
+        <div class="job_position">
+            <div class="job_title">Front-end dev</div>
+            <div class="line"></div>
+            <div class="job_detail">
+                <b>Programming languages:</b><br/>HTML, CSS, Javascipt and jQuery<br/>
+                <div style=" height:1px; width:100%; margin-bottom:10px; float:left;"></div>
+                <b>Knowledge:</b><br/>Knowledgable of UI best practices, pixel-level precision, use of iterative design techniques
+                <div style=" height:1px; width:100%; margin-bottom:10px; float:left;"></div><br />
+                <b>Bonus:</b><br/> Experience in user scenarios & graphics design<br/>
+            </div>
+            <div class="job_apply_btn"></div>
+        </div>          
+        <div class="job_position">
+            <div class="job_title">Back-end dev</div>
+            <div class="line"></div>
+            <div class="job_detail">
+                <b>Programming languages:</b><br/>JavaScript<br/>
+                <div style=" height:1px; width:100%; margin-bottom:25px; float:left;"></div>
+                <b>Knowledge:</b><br/>Have used or willing to learn node.js, socket.io, hook.io, dnode, other asynchronous techniques
+                <div style=" height:1px; width:100%; margin-bottom:10px; float:left;"></div>
+                <b>Bonus:</b><br/>Experience w/ geolocation, distributed messaging systems, security testing<br/>
+            </div>
+            <div class="job_apply_btn"></div>
+        </div>  
+        <div class="job_position">
+            <div class="job_title">DB administrator</div>
+            <div class="line"></div>
+            <div class="job_detail"></div>
+            <div class="job_apply_btn"></div>
+        </div>  
+        <div class="job_position" style="margin-right:1px;">
+            <div class="job_title">Architect</div>
+            <div class="line"></div>
+            <div class="job_detail"></div>
+            <div class="job_apply_btn"></div>
+        </div>          
+
+    </div>
+	<!-- TECHNICAL JOBS CONTAINER END -->  
+    
+    <!-- DESIGN JOBS CONTAINER START -->  
+    <div class="job_board_container">
+    <a  id="design" class="anchor2"><div style="padding-bottom:5px; border-bottom:solid 1px #222; margin-bottom:10px; padding-top:15px;">Design positions</div></a>
+    <a style="position:relative; bottom:30px; font-size:11px; color:#666; text-decoration:none; float:right;" href=".position_intro" rel="" class="anchorLink">back to position</a>
+    <br/>
+        <div class="job_position">
+            <div class="job_title_2">Graphic designer</div>
+            <div class="line"></div>
+            <div class="job_detail">
+                <b>Software mastering:</b><br/>Adobe Illustrator and Photoshop<br/>
+                <div style=" height:1px; width:100%; margin-bottom:10px; float:left;"></div>
+                <b>Knowledge:</b><br/>Knowledgable of UI best practices, pixel-level precision, use of iterative design techniques
+                <div style=" height:1px; width:100%; margin-bottom:10px; float:left;"></div><br />
+                <b>Bonus:</b><br/> Experience in print design and storyboards<br/>
+            </div>
+            <div class="job_apply_btn"></div>
+        </div>          
+        <div class="job_position">
+            <div class="job_title_2">Motion designer</div>
+            <div class="line"></div>
+            <div class="job_detail">
+                <b>Software mastering:</b><br/>Adobe After Effect, Premiere and Flash<br/>
+                <div style=" height:1px; width:100%; margin-bottom:10px; float:left;"></div>
+                <b>Knowledge:</b><br/>Knowledgable of UI best practices, willingness to use iterative design techniques
+                <div style=" height:1px; width:100%; margin-bottom:10px; float:left;"></div><br />
+                <b>Bonus:</b><br/>Concept video introduction, such as "see how it work"<br/>
+            </div>
+            <div class="job_apply_btn"></div>
+        </div>   
+
+    </div>
+	<!-- DESIGN JOBS CONTAINER END -->  
+    
+     <!-- MEDIA JOBS CONTAINER START -->  
+    <div class="job_board_container">
+    <a  id="media" class="anchor3"><div style="padding-bottom:5px; border-bottom:solid 1px #222; margin-bottom:10px; padding-top:15px;">Media positions</div></a>
+    <a style="position:relative; bottom:30px; font-size:11px; color:#666; text-decoration:none; float:right;" href=".position_intro" rel="" class="anchorLink">back to position</a>
+    <br/>
+        <div class="job_position">
+            <div class="job_title_3">Content writter</div>
+            <div class="line"></div>
+            <div class="job_detail">
+                <b>Programming languages:</b><br/>HTML, CSS, Javascipt and jQuery<br/>
+                <div style=" height:1px; width:100%; margin-bottom:10px; float:left;"></div>
+                <b>Knowledge:</b><br/>Knowledgable of UI best practices, willingness to use iterative design techniques<br />
+                <div style=" height:1px; width:100%; margin-bottom:10px; float:left;"></div>
+                <b>Bonus:</b><br/> Experience in user scenarios & graphics design<br/>
+            </div>
+            <div class="job_apply_btn"></div>
+        </div>
+        <div class="job_position">
+            <div class="job_title_3">SEO Expert</div>
+            <div class="line"></div>
+            <div class="job_detail">
+                <b>Programming languages:</b><br/>JavaScript<br/>
+                <div style=" height:1px; width:100%; margin-bottom:25px; float:left;"></div>
+                <b>Knowledge:</b><br/>Have used or willing to learn node.js, socket.io, hook.io, dnode, other asynchronous techniques
+                <div style=" height:1px; width:100%; margin-bottom:10px; float:left;"></div>
+                <b>Bonus:</b><br/>Experience w/ geolocation, distributed messaging systems, security testing<br/>
+            </div>
+            <div class="job_apply_btn"></div>
+        </div>
+        <div class="job_position">
+            <div class="job_title_3">Community admin</div>
+            <div class="line"></div>
+            <div class="job_detail">
+                <b>Programming languages:</b><br/>HTML, CSS, Javascipt and jQuery<br/>
+                <div style=" height:1px; width:100%; margin-bottom:10px; float:left;"></div>
+                <b>Knowledge:</b><br/>Knowledgable of UI best practices, willingness to use iterative design techniques<br />
+                <div style=" height:1px; width:100%; margin-bottom:10px; float:left;"></div>
+                <b>Bonus:</b><br/> Experience in user scenarios & graphics design<br/>
+            </div>
+            <div class="job_apply_btn"></div>
+        </div>           
+
+    </div>
+	<!-- MEDIA JOBS CONTAINER END -->
+
+    
+<!-- JOB CONTAINER END -->  
+</div>
+    
+        <!-- MAIN FOOTER START -->  
+        <div id="footer">
+        <div id="main_footer">
+            <div class="main_footer_container">
+            
+                <div class="main_footer_text" style="margin-left:20px;">
+                    <div class="main_footer_title">Blog</div><div class="footer_link_blog">&nbsp;</div>
+                    Keep up on the latest news, progress and what we are striving to achieve at Relief1. <br/><br/><a class="footer_link" href="#">Read our Blog</a>
+                </div>
+                <div class="main_footer_text">
+                    <div class="main_footer_title">Help Us</div><div class="footer_link_job">&nbsp;</div>
+                    If making a difference in the world matters to you, we have many opportunities to help. <br/><br/><a class="footer_link" href="#">Join our Team</a>
+                </div>
+ 				<div class="main_footer_text">
+                    <div class="main_footer_title">Partners</div><div class="footer_link_sponsor">&nbsp;</div>
+                    Our worldwide network of partners and sponsors help make Relief1 a reality.<br/><br/><a class="footer_link" href="#">Checkout our Partners</a>
+                </div>
+                 <div class="main_footer_text">
+                    <div class="main_footer_title">About Us</div><br/><div class="footer_link_about">&nbsp;</div>
+                    We are a worldwide team of like-minded people focused on making a difference.<br/><br/><a class="footer_link" href="about_us.html">Learn more About Us</a>
+                </div>
+                <div class="legal">
+               Made with love from all around the world. Copyright © 2011 Relief1.<br/>Hosted by <a style="color:#777;" href="http://nodejitsu.com/">(sponsor)</a>. Collaboration platform thanks to <a style="color:#777;" href="www.lucidchart.com">lucidchart</a>.	<br/> Powered by <a style="color:#777;" href="http://nodejitsu.com/">nodejistu</a>.
+                </div>
+                
+            </div>
+        </div>
+        </div>
+  		<!-- MAIN FOOTER END -->
+           
+</body>
+</html>
