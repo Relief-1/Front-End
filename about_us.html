@@ -1,0 +1,305 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+
+<!-- HEAD START -->
+<head>
+
+	<!-- DESCRIPTION -->
+    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+    <title>Join us !</title>
+
+    <!-- CSS -->
+    <link rel="stylesheet" href="css/main.css" type="text/css">
+    <link rel="stylesheet" href="css/aboutus.css" type="text/css">
+    <link rel="stylesheet" href="css/map.css" type="text/css">
+    
+    <!-- SCRIPT -->
+	<script type="text/javascript" src="http://ajax.googleapis.com/ajax/libs/jquery/1.4.2/jquery.min.js"></script>
+	<script type="text/javascript" src="http://ajax.googleapis.com/ajax/libs/jqueryui/1.7.2/jquery-ui.min.js"></script>
+   
+    <!-- MAP SCRIPT -->
+    <script src="js/jquery.js" type="text/javascript"></script>
+	<script src="js/mobilymap.js" type="text/javascript"></script>
+    <script src="js/init.js" type="text/javascript"></script>
+    <script src="js/jquery.easing.1.3.js" type="text/javascript"></script>
+    
+    <script type="text/javascript">
+	$(document).ready(function() {
+		var navItems = $('[class^=pin]');
+			navItems.click(function(){
+				 navItems.removeClass('pinactive')
+			 $(this).addClass('pinactive')
+			});
+	})
+	</script>
+    
+    <script type="text/javascript">
+	$(document).ready(function() {
+		var navItems = $('[class^=name]');
+			navItems.click(function(){
+				 navItems.removeClass('btnactive')
+			 $(this).addClass('btnactive')
+			});
+	})
+	</script>
+
+<!-- HEAD END -->
+</head>
+
+<body>
+
+	<!-- HEADER START -->	            
+	<div id="header">
+    	<div id="header_container">
+        
+        	<div id="logo"></div>
+            <div id="nav">
+                <ul>
+                    <li><a href="contact.html">Contact</a></li>
+                    <li><a href="sponsors.html">Sponsors</a></li>
+                    <li><a href="about_us.html" style="color:#89CEDE;">Our Team</a></li>
+                    <li><a href="jobs.html">Join Us</a></li>
+                    <li><a href=""> Blog</a></li>
+                    <li><a href="index.html">Home</a></li>
+                </ul>
+            </div>
+            <div class="nav_tip_about_us"></div>
+        </div>
+    </div>
+	<!-- HEADER END -->
+	
+   <!-- ABOUT US CONTAINER START -->  
+    <div id="about_us_container">
+        <div class="heading">The relief1 team. From everywhere.</div>
+   
+   		<!-- MAP START -->  	
+	<div id="content">
+		<div class="europe_map">
+			<img src="img/map_world.jpg" width="1100" height="460"/>
+
+			<!-- CARTER -->  	
+			<div class="pin" id="p-240-90">
+				<span>Carter Leffen, Joplin <img class="flag_space" src="img/flags/us.gif" alt="" /></span>
+				 <p>Co-Founder<br />
+                 Survived a F5 tornado.</p>
+				<div class="personnal_links"><a href="">twitter</a> | <a href="">twitter</a></div>
+                <img class="bubble_avatar" src="img/team/carter.jpg" alt="Carter Leffen" />
+                <div class="tip_team_detail"></div>
+			</div> 
+            <!-- DOUG -->  	
+			<div class="pin" id="p-282-87">
+				<span>Doug Picirillo, Chicago <img class="flag_space" src="img/flags/us.gif" alt="" /></span>
+				 <p>Co-Founder<br />
+                 Speak way too many languages.</p>
+				<div class="personnal_links"><a href="">twitter</a> | <a href="">twitter</a></div>
+                <img class="bubble_avatar" src="img/team/doug.jpg" alt="Doug Picirillo" />
+                <div class="tip_team_detail"></div>
+			</div>
+            <!-- DAWNA -->  	
+			<div class="pin" id="p-287-87">
+				<span>Dawna Flet, Chicago <img class="flag_space" src="img/flags/us.gif" alt="" /></span>
+				 <p>Treasurer<br />
+                 +one spcial/funny/whatever fact</p>
+				<div class="personnal_links"><a href="">twitter</a> | <a href="">twitter</a></div>
+                <img class="bubble_avatar" src="img/team/dawna.jpg" alt="Dawna Flet" />
+                <div class="tip_team_detail"></div>
+			</div> 
+            
+            
+            <!-- SIMON -->  	
+			<div class="pin" id="p-885-120">
+				<span>Simon Huang, Shanghai <img class="flag_space" src="img/flags/cn.gif" alt="" /></span>
+				 <p>Social entrepreneur<br />
+                 +one spcial/funny/whatever fact</p>
+				<div class="personnal_links"><a href="">twitter</a> | <a href="">twitter</a></div>
+                <div class="bubble_avatar"></div>
+                <div class="tip_team_detail"></div>
+			</div>   
+
+
+			<!-- CHARLES -->  	
+			<div class="pin" id="p-180-95">
+				<span>Charlie McConnell, SF <img class="flag_space" src="img/flags/us.gif" alt="" /></span>
+				 <p>Lead Developer<br />
+                 Wear a white hat on daily basis.</p>
+				<div class="personnal_links"><a href="">twitter</a> | <a href="">twitter</a></div>
+                <img class="bubble_avatar" src="img/team/charles.jpg" />
+                <div class="tip_team_detail"></div>
+			</div>   			
+            <!-- JANN -->  	
+			<div class="pin" id="p-560-50">
+				<span>Jann Horn,  Oldenburg <img class="flag_space" src="img/flags/de.gif" alt="" /></span>
+				 <p>Back-end Developer<br />
+                 Connect to IRC via phone in classroom</p>
+				<div class="personnal_links"><a href="">twitter</a> | <a href="">twitter</a></div>
+                <img class="bubble_avatar" src="img/team/jann.jpg" />
+			</div>
+   			<!-- MALECKI -->  	
+			<div class="pin" id="p-590-50">
+				<span>Maciej Małecki, Poznan <img class="flag_space" src="img/flags/pl.gif" alt="" /></span>
+				 <p>Back-end Developer<br />
+                 want to be remembered as a monkey dev</p>
+				<div class="personnal_links"><a href="">twitter</a> | <a href="">twitter</a></div>
+                <img class="bubble_avatar" src="img/team/malecki.jpg" />
+            	<div class="tip_team_detail"></div>
+			</div>
+   			<!-- RICHARD -->  	
+			<div class="pin" id="p-193-110">
+				<span>Richard Hoffman, CA <img class="flag_space" src="img/flags/us.gif" alt="" /></span>
+				 <p>Back-end Developer<br />
+                 +one spcial/funny/whatever fact</p>
+				<div class="personnal_links"><a href="">twitter</a> | <a href="">twitter</a></div>
+                <div class="bubble_avatar"></div>
+            	<div class="tip_team_detail"></div>
+			</div> 
+   			<!-- SHAKEL -->  	
+			<div class="pin" id="p-735-105">
+				<span>Shakeel Shafiq, Islamabad <img class="flag_space" src="img/flags/pk.gif" alt="" /></span>
+				 <p>Back-end Developer<br />
+                 +one spcial/funny/whatever fact</p>
+				<div class="personnal_links"><a href="">twitter</a> | <a href="">twitter</a></div>
+                <div class="bubble_avatar"></div>
+                <div class="tip_team_detail"></div>
+			</div> 
+            <!-- MASSIMILIANO -->
+            <div class="pin" id="p-395-275">
+				<span style="font-size:12px;">Massimiliano Giroldi, Brasília <img class="flag_space" src="img/flags/br.gif" alt="" /></span>
+				 <p>Back-end Developer<br />
+                 +one spcial/funny/whatever fact</p>
+				<div class="personnal_links"><a href="">twitter</a> | <a href="">twitter</a></div>
+                <div class="bubble_avatar"></div>
+                <div class="tip_team_detail"></div>
+			</div>         
+                     
+            <!-- JAKE -->  	
+            <div class="pin" id="p-527-46">
+				<span>Jake, Manchester <img class="flag_space" src="img/flags/gb.gif" alt="" /></span>
+				 <p>Front-end<br />
+                 +one spcial/funny/whatever fact</p>
+				<div class="personnal_links"><a href="">twitter</a> | <a href="">twitter</a></div>
+                <div class="bubble_avatar"></div>
+                <div class="tip_team_detail"></div>
+			</div>                         
+   			<!-- ADRIEN -->  	
+            <div class="pin" id="p-540-65">
+				<span>Adrien OIczak, Paris <img class="flag_space" src="img/flags/fr.gif" alt="" /></span>
+				 <p>Design lead<br />
+                 Interfer w/ co-founder and paint walls.</p>
+				<div class="personnal_links"><a href="">twitter</a> | <a href="">dribbble</a> | <a href="">forrst</a></div>
+                <img class="bubble_avatar" src="img/team/adrien.jpg" />
+                <div class="tip_team_detail"></div>
+			</div>
+            <!-- SAVINO -->  	
+            <div class="pin" id="p-557-66">
+				<span>Savino Johner, Geneva <img class="flag_space" src="img/flags/ch.gif" alt="" /></span>
+				 <p>Front-end<br />
+                 Also known as "stealth dev"</p>
+				<div class="personnal_links"><a href="">twitter</a> | <a href="">twitter</a></div>
+                <div class="bubble_avatar"></div>
+                <div class="tip_team_detail"></div>
+			</div>
+            <!-- GHISLAINE -->  	
+            <div class="pin" id="p-535-70">
+				<span>Ghislaine Guerin, Poitiers <img class="flag_space" src="img/flags/fr.gif" alt="" /></span>
+				 <p>Graphic & UI designer<br />
+                 +one spcial/funny/whatever fact</p>
+				<div class="personnal_links"><a href="">twitter</a> | <a href="">twitter</a></div>
+                <div class="bubble_avatar"></div>
+                <div class="tip_team_detail"></div>
+			</div>
+            <!-- ERIC -->  	
+            <div class="pin" id="p-260-120">
+				<span>Eric Minaker, ... <img class="flag_space" src="img/flags/us.gif" alt="" /></span>
+				 <p>Research<br />
+                 +one spcial/funny/whatever fact</p>
+				<div class="personnal_links"><a href="">twitter</a> | <a href="">twitter</a></div>
+                <div class="bubble_avatar"></div>
+                <div class="tip_team_detail"></div>
+			</div>
+            
+            <!-- JEFF -->  	
+            <div class="pin" id="p-244-90">
+				<span>Jeff Youngblood, Joplin <img class="flag_space" src="img/flags/us.gif" alt="" /></span>
+				 <p>Content<br />
+                 +one spcial/funny/whatever fact</p>
+				<div class="personnal_links"><a href="">twitter</a> | <a href="">twitter</a></div>
+                <div class="bubble_avatar"></div>
+                <div class="tip_team_detail"></div>
+			</div>
+         
+		</div>
+        
+        <div class="whosdoing">Who's in ?</div>
+        <div class="what_position">
+        	<div class="executive">Management</div>
+            <div class="marketing">Marketing</div>
+            <div class="backend">Developpement</div>
+            <div class="frontend">Design</div>
+            <div class="content">Content</div>
+        </div>
+		<ul class="map_buttons">
+            <div class="executive_container">
+                <li><a class="name" href="#" rel="p-240-90">Carter</a></li>
+                <li><a href="#" rel="p-282-87">Doug</a></li>
+                <li><a href="#" rel="p-287-87">Dawna</a></li>
+            </div>
+            <div class="marketing_container">
+                <li><a href="#" rel="p-885-120">Simon</a></li>
+            </div>
+            <div class="backend_container">
+                <li><a href="#" rel="p-180-95">Charles</a></li>
+                <li><a href="#" rel="p-590-50">Maciej</a></li>
+                <li><a href="#" rel="p-560-50">Jann</a></li>
+                <li><a href="#" rel="p-193-110">Richard</a></li>
+                <li><a href="#" rel="p-735-105">Shakeel</a></li> 
+                <li><a href="#" rel="p-395-275">Massimiliano</a></li>
+            </div> 
+            <div class="frontend_container">
+                <li><a href="#" rel="p-540-65">Adrien</a></li>
+                <li><a href="#" rel="p-557-66">Savino</a></li>
+                <li><a href="#" rel="p-527-46">Jake</a></li>
+                <li><a href="#" rel="p-535-70">Ghislaine</a></li>
+            </div>
+             <div class="content_container">
+            	<li><a href="#" rel="p-244-90">Jeff</a></li>
+                <li><a href="#" rel="p-260-120">Eric</a></li>
+            </div>
+		</ul>
+	</div>
+        
+    </div>
+   <!-- ABOUT US CONTAINER END -->  
+
+
+   <!-- MAIN FOOTER START -->  
+        <div id="footer">
+        <div id="main_footer">
+            <div class="main_footer_container">
+            
+                <div class="main_footer_text" style="margin-left:20px;">
+                    <div class="main_footer_title">Blog</div><div class="footer_link_blog">&nbsp;</div>
+                    Our vision toward disasters handing and how we are building relief1 platform.<br/><br/><a class="footer_link" href="#">Read our blog</a>
+                </div>
+                <div class="main_footer_text">
+                    <div class="main_footer_title">Jobs</div><div class="footer_link_job">&nbsp;</div>
+                    Whenever you are a developper, designer, a volunteer or and org, your are welcome to join ! <br/><br/><a class="footer_link" href="#">Check positions</a>
+                </div>
+ 				<div class="main_footer_text">
+                    <div class="main_footer_title">Partners</div><div class="footer_link_sponsor">&nbsp;</div>
+                    Organisations, companies, funds, you can sponsor and help a major worldwide issue.<br/><br/><a class="footer_link" href="#">Sponsorship</a>
+                </div>
+                 <div class="main_footer_text">
+                    <div class="main_footer_title">About us</div><br/><div class="footer_link_about">&nbsp;</div>
+                    We are just geeks who join our knowledge and capacities to make a safest and better world.<br/><br/><a class="footer_link" href="about_us.html">The team so far</a>
+                </div>
+                <div class="legal">
+               Made with love from all around the world.<br/> Copyright © 2011 Relief1.
+                </div>
+                
+            </div>
+        </div>
+        </div>
+  		<!-- MAIN FOOTER END -->
+
+</body>
+</html>
