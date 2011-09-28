@@ -32,7 +32,7 @@ body {
 #job_container {
 	margin:0 auto;
 	width:960px;
-	height:2430px;
+	height:2730px;
 	margin-top:40px;
 	margin-bottom:40px;
 	background:#FFF;
@@ -208,7 +208,7 @@ body {
            JOB POSISTION SHORTCUT
 --------------------------------------------------------*/
 .shortcut_technical {
-	margin-left:270px;
+	margin-left:180px;
 	background:url(../img/bg_job_title_alu.png) center center;
 	font-size:14px;
 	text-shadow:0 1px 0 #fffdfb;
@@ -276,6 +276,30 @@ body {
 	-webkit-box-shadow:inset 0px 2px 5px #000, 0 1px 0px #333;
 	box-shadow:inset 0px 2px 5px #000, 0 1px 0px #333;
 }
+.shortcut_other {
+	margin-left:20px;
+	background:url(../img/bg_job_title_textile1.png) center center;
+	font-size:14px;
+	text-shadow:0 1px 0 #c0d2ff;
+	text-align:center;
+	padding: 10px 25px;
+	border:solid 1px #53648d;
+	float:left;
+	
+	border-radius:5px;
+	-moz-border-radius:5px;
+	-webkit-border-radius:5px;
+	
+	-moz-box-shadow:inset 0px 1px 1px #FFF, 0 1px 0px #000;
+	-webkit-box-shadow:inset 0px 1px 1px #FFF, 0 1px 0px #000;
+	box-shadow:inset 0px 1px 1px #FFF, 0 1px 0px #000;
+}
+.shortcut_other:active {
+	-moz-box-shadow:inset 0px 2px 5px #000, 0 1px 0px #333;
+	-webkit-box-shadow:inset 0px 2px 5px #000, 0 1px 0px #333;
+	box-shadow:inset 0px 2px 5px #000, 0 1px 0px #333;
+}
+
 
 /*--------------------------------------------------------
            JOB BOARD LIST TITLES
@@ -341,6 +365,27 @@ body {
 	-webkit-box-shadow:inset 0 1px 0px #c0d2ff;
 	box-shadow:inset 0 1px 0px #c0d2ff;
 }
+.job_title_4 {
+	font-size:14px;
+	text-align:center;
+	text-shadow:0 1px 0 #c0d2ff;
+	padding-top:10px;
+	padding-bottom:10px;
+	color:#222;
+	background:url(../img/bg_job_title_textile.png) center;
+	border:solid 1px #666;
+	
+	border-top-left-radius:5px;
+	border-top-right-radius:5px;
+	-moz-border-radius-topleft:5px;
+	-moz-border-radius-topright:5px;
+	-webkit-border-top-right-radius:5px;
+	-webkit-border-top-left-radius:5px;
+	
+	-moz-box-shadow:inset 0 1px 0px #c0d2ff;
+	-webkit-box-shadow:inset 0 1px 0px #c0d2ff;
+	box-shadow:inset 0 1px 0px #c0d2ff;
+}
 .line {
 	height:1px;
 	background:#222;
@@ -393,5 +438,4 @@ body {
 	border-radius:5px;
 	-moz-border-radius:5px;
 	-webkit-border-radius:5px;
-	
 }
