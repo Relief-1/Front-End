@@ -4,7 +4,7 @@
  $email = $_POST['email_address'];
  $comment = $_POST['comment'];
  $ip = $_SERVER['REMOTE_ADDR'];
- $to ='adrien.olczak@gmail.com';
+ $to ='carter.leffen@relief1.org';
  
  
  $message = "";
