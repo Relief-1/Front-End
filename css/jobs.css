@@ -32,7 +32,7 @@ body {
 #job_container {
 	margin:0 auto;
 	width:960px;
-	height:2730px;
+	height:2430px;
 	margin-top:40px;
 	margin-bottom:40px;
 	background:#FFF;
@@ -105,7 +105,7 @@ body {
 	margin:0 auto;
 	text-align:center;
 	font-size:36px;
-	line-height:60px;
+	line-height:90px;
 	font-weight:bold;
 	color:#444;
 	float:left;
@@ -115,7 +115,6 @@ body {
 	width:20px;
 	height:20px;
 	background:url(../img/job_circle_middle.png) center bottom;
-	cursor:pointer;
 	z-index:1001;
 }
 .core_value_circle:active {
@@ -276,11 +275,11 @@ body {
 	-webkit-box-shadow:inset 0px 2px 5px #000, 0 1px 0px #333;
 	box-shadow:inset 0px 2px 5px #000, 0 1px 0px #333;
 }
-.shortcut_other {
+.shortcut_content {
 	margin-left:20px;
 	background:url(../img/bg_job_title_textile1.png) center center;
 	font-size:14px;
-	text-shadow:0 1px 0 #c0d2ff;
+	text-shadow:0 1px 0 #DDD;
 	text-align:center;
 	padding: 10px 25px;
 	border:solid 1px #53648d;
@@ -294,7 +293,7 @@ body {
 	-webkit-box-shadow:inset 0px 1px 1px #FFF, 0 1px 0px #000;
 	box-shadow:inset 0px 1px 1px #FFF, 0 1px 0px #000;
 }
-.shortcut_other:active {
+.shortcut_content:active {
 	-moz-box-shadow:inset 0px 2px 5px #000, 0 1px 0px #333;
 	-webkit-box-shadow:inset 0px 2px 5px #000, 0 1px 0px #333;
 	box-shadow:inset 0px 2px 5px #000, 0 1px 0px #333;
@@ -368,7 +367,7 @@ body {
 .job_title_4 {
 	font-size:14px;
 	text-align:center;
-	text-shadow:0 1px 0 #c0d2ff;
+	text-shadow:0 1px 0 #DDD;
 	padding-top:10px;
 	padding-bottom:10px;
 	color:#222;
