@@ -64,7 +64,8 @@
 				  data: data_html,
 				  success: function(msg){
 				  	if (msg == 'sent'){
-				 			$('#success').html('You are awesome!') 	;
+				 			$('#success').html('You\'re awesome!') 	;
+				 			$('#success2').html('We\'ll get back to you as soon as possible.') 	;
 				 			//$('#contact-form [name="contact-names"]').val('');	
 				 		   //$('#contact-form [name="contact-names"]').val('');	 
 						  //$('#contact-form [name="contact-email"]').val('');
@@ -72,7 +73,7 @@
 						$('#contact-form').hide();
 				 			
 				 		}else{
-				 			$('#success').html('Message failed. Please Try Again.!') 	;	
+				 			$('#error').html('Message failed. Please Try Again.') 	;	
 				 		}
 				  }
 			});
@@ -111,13 +112,14 @@
 
 	<!-- CONTACT CONTAINER START -->  
     <div id="contact_container">
-            <div class="heading">Questions, suggestions? Contact us!</div>
+            <div class="heading">We'd love to hear from you!</div>
             
             <div class="form_container">
 				
         			<div id="stylized" class="myform">
                     
                             <div id="success"></div>
+                            <div id="success2"></div>
                             
                     		<form id="contact-form" name="contact-form" method="POST">
                             
@@ -125,8 +127,8 @@
                                 <input type="text" value="" name="contact-names" class="contact-names"><span class="name-required"></span>
                                 
                                 <label class="label" style="margin-top:-5px;"><span class="label">Country</span></label>
-                                <select style="width:305px; height:30px; padding-top:3px; font-size:14px; margin-left:10px;" name="contact-country" class="contact-country">
-                                    <option value="">choose a country</option> 
+                                <select style="width:305px; height:30px; padding-top:0px; font-size:14px; margin-left:10px;" name="contact-country" class="contact-country">
+                                    <option value="">Choose a Country</option> 
                                     <option value="Afghanistan">Afghanistan</option> 
                                     <option value="Albania">Albania</option> 
                                     <option value="Algeria">Algeria</option> 
@@ -381,8 +383,13 @@
                               <div class="spacer"></div>
                          </form>
                          
+							<div id="error"></div>
+
+                         
 					</div>
 			</div>
+            
+            
 	</div>
 	
     </div>
@@ -406,7 +413,7 @@
                     Organisations, companies, funds, you can sponsor and help a major worldwide issue.<br/><br/><a class="footer_link" href="#">Sponsorship</a>
                 </div>
                  <div class="main_footer_text">
-                    <div class="main_footer_title">About us</div><br/><div class="footer_link_about">&nbsp;</div>
+                    <div class="main_footer_title">About Us</div><br/><div class="footer_link_about">&nbsp;</div>
                     We are just geeks who join our knowledge and capacities to make a safest and better world.<br/><br/><a class="footer_link" href="about_us.html">The team so far</a>
                 </div>
                 <div class="legal">

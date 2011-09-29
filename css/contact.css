@@ -268,11 +268,28 @@ body {
 	margin-left:474px;
 }
 #success {
-	font-size:20px;
+	font-size:36px;
 	 color:#FFF;
+	 text-shadow:0 1px 10px #444;
 	 position:relative;
 	 left:100px;
-	 top:90px;
+	 top:60px;
+}
+#success2 {
+	font-size:14px;
+	 color:#FFF;
+	 text-shadow:0 1px 5px #444;
+	 position:relative;
+	 left:102px;
+	 top:60px;
+}
+#error {
+	font-size:14px;
+	 color:#FFF;
+	 text-shadow:0 1px 2px #444;
+	 position:relative;
+	 top:40px;
+	 left:160px;
 }
 #submit-form {
 	width:100px;
