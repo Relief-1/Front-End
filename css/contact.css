@@ -50,14 +50,13 @@ body {
 	margin:0 auto;
 	position:relative;
 	width:100%;
-	height:150px;
+	height:100px;
 	font-family:'Lucida Grande','Lucida Sans Unicode', sans-serif;
 	margin-top:40px;
 	text-align:center;
 	font-size:28px;
 	line-height:100px;
 	font-weight:bold;
-	background:url(../img/quote_shadow.jpg) center 100px no-repeat;
 	color:#444;
 }
 /*--------------------------------------------------------
@@ -82,5 +81,201 @@ body {
 }
 .sponsor_us_title {
 	font-size:
+}
+/*--------------------------------------------------------
+           CONTACT FORM
+--------------------------------------------------------*/
+
+.form_container {
+	width:960;
+	height:430px;
+	background:url(../img/bg3.jpg) 120px -50px no-repeat #111;
+	border-top:solid 1px #BBB;
+	padding-top:50px;
+	
+	-moz-border-radius-bottomright:5px;
+	-moz-border-radius-bottomleft:5px;
+	-webkit-border-bottom-right-radius:5px;
+	-webkit-border-bottom-left-radius:5px;
+	border-bottom-left-radius:5px;
+	border-bottom-right-radius:5px;
+}
+.myform {
+	margin:0 auto;
+	width:480px;
+	padding:14px;
+	margin-left:0px;
+	margin-top:5px;
+}
+
+/* ----------- stylized ----------- */
+#stylized label{
+	display:block;
+	font-weight:bold;
+	text-align:right;
+	width:150px;
+	height:20px;
+	margin-top:-5px;
+	float:left;
+}
+#stylized input{
+	float:left;
+	font-size:16px;
+	padding-left:10px;
+	padding-top:0px;
+	width:295px;
+	height:30px;
+	margin:0px 0 30px 10px;
+	border:none;
+		
+	-moz-border-radius:5px;
+	-webkit-border-radius:5px;
+	border-radius:5px;
+
+}
+#stylized input:hover{
+}
+.label {
+	color:#FFF;
+	font-weight:normal;
+}
+.contact-commnent {
+	text-align:left;
+	width:300px;
+	border:none;
+	margin-left:10px;
+	height:15px;
+	resize:none;
+	margin-top:-10px;
+	margin-bottom:25px;
+	
+	-moz-box-shadow: 0 0 0 1px rgba(0, 0, 0, 0.4) inset, 0 2px 1px 0 rgba(0, 0, 0, 0.2) inset, 0 2px 3px 0 rgba(0, 0, 0, 0.2) inset, 0 1px 0 0 rgba(255, 255, 255, 0.8);
+	-webkit-box-shadow: 0 0 0 1px rgba(0, 0, 0, 0.4) inset, 0 2px 1px 0 rgba(0, 0, 0, 0.2) inset, 0 2px 3px 0 rgba(0, 0, 0, 0.2) inset, 0 1px 0 0 rgba(255, 255, 255, 0.8);
+	box-shadow: 0 0 0 1px rgba(0, 0, 0, 0.4) inset, 0 2px 1px 0 rgba(0, 0, 0, 0.2) inset, 0 2px 3px 0 rgba(0, 0, 0, 0.2) inset, 0 1px 0 0 rgba(255, 255, 255, 0.8);
+}
+.contact-email {
+	text-align:left;
+	width:300px;
+	border:none;
+	margin-left:10px;
+	height:15px;
+	resize:none;
+	margin-bottom:25px;
+	-moz-border-radius:5px;
+	-webkit-border-radius:5px;
+	border-radius:5px;
+	
+	-moz-box-shadow: 0 0 0 1px rgba(0, 0, 0, 0.4) inset, 0 2px 1px 0 rgba(0, 0, 0, 0.2) inset, 0 2px 3px 0 rgba(0, 0, 0, 0.2) inset, 0 1px 0 0 rgba(255, 255, 255, 0.8);
+	-webkit-box-shadow: 0 0 0 1px rgba(0, 0, 0, 0.4) inset, 0 2px 1px 0 rgba(0, 0, 0, 0.2) inset, 0 2px 3px 0 rgba(0, 0, 0, 0.2) inset, 0 1px 0 0 rgba(255, 255, 255, 0.8);
+	box-shadow: 0 0 0 1px rgba(0, 0, 0, 0.4) inset, 0 2px 1px 0 rgba(0, 0, 0, 0.2) inset, 0 2px 3px 0 rgba(0, 0, 0, 0.2) inset, 0 1px 0 0 rgba(255, 255, 255, 0.8);
+}
+.contact-names {
+	text-align:left;
+	width:300px;
+	border:none;
+	margin-left:10px;
+	height:15px;
+	resize:none;
+	margin-bottom:15px;	
+	-moz-box-shadow: 0 0 0 1px rgba(0, 0, 0, 0.4) inset, 0 2px 1px 0 rgba(0, 0, 0, 0.2) inset, 0 2px 3px 0 rgba(0, 0, 0, 0.2) inset, 0 1px 0 0 rgba(255, 255, 255, 0.8);
+	-webkit-box-shadow: 0 0 0 1px rgba(0, 0, 0, 0.4) inset, 0 2px 1px 0 rgba(0, 0, 0, 0.2) inset, 0 2px 3px 0 rgba(0, 0, 0, 0.2) inset, 0 1px 0 0 rgba(255, 255, 255, 0.8);
+	box-shadow: 0 0 0 1px rgba(0, 0, 0, 0.4) inset, 0 2px 1px 0 rgba(0, 0, 0, 0.2) inset, 0 2px 3px 0 rgba(0, 0, 0, 0.2) inset, 0 1px 0 0 rgba(255, 255, 255, 0.8);
+}
+.contact-country {
+	text-align:left;
+	width:300px;
+	height:20px;
+	margin-left:10px;
+	resize:none;
+	margin-bottom:18px;
+	margin-top:-10px;
+}
+.contact-commnent {
+	text-align:left;
+	width:295px;
+	border:none;
+	font-size:16px;
+	margin-left:10px;
+	padding-left:10px;
+	padding-top:10px;
+	height:100px;
+	resize:none;
+	margin-bottom:25px;
+	font-family:'Lucida Grande','Lucida Sans Unicode', sans-serif;
+	
+	-moz-border-radius:5px;
+	-webkit-border-radius:5px;
+	border-radius:5px;
+}
+.submit-button {
+	background:url(../img/contact_form_btn.png) center 0px;
+	text-align:center;
+	text-shadow:0 1px 0 #ffdba1;
+	border:none;
+}
+.submit-button:hover {
+	background-position:center 81px;
+}
+.submit-button:active {
+	background-position:center 41px;
+}
+/*//////////////////////////////////////////////////////////*/
+/*////////////////       AJAX FORM       ////////////////*/
+/*//////////////////////////////////////////////////////////*/
+
+.name-required{
+	display:block;
+	float:right;
+	width:auto;
+	height:10px;
+	font-size:13px;
+	color:#F03;
+	position:absolute;
+	top:260px;
+	margin-left:474px;
+}
+.email-required{
+	display:block;
+	float:right;
+	width:auto;
+	height:10px;
+	font-size:13px;
+	color:#F03;
+	position:absolute;
+	top:360px;
+	margin-left:474px;
+}
+.country-required{
+	display:block;
+	float:right;
+	width:auto;
+	height:10px;
+	font-size:13px;
+	color:#F03;
+	position:absolute;
+	top:310px;
+	margin-left:474px;
+}
+.comment-required {
+	display:block;
+	float:right;
+	width:auto;
+	height:10px;
+	font-size:13px;
+	color:#F03;
+	position:absolute;
+	top:415px;
+	margin-left:474px;
+}
+#success {
+	font-size:20px;
+	 color:#FFF;
+	 position:relative;
+	 left:100px;
+	 top:90px;
+}
+#submit-form {
+	width:100px;
+	cursor:pointer;
 }
 	
