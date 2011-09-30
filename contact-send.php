@@ -4,8 +4,7 @@
  $email = $_POST['email_address'];
  $comment = $_POST['comment'];
  $ip = $_SERVER['REMOTE_ADDR'];
- $to ='carter.leffen@relief1.org';
- 
+ $to ='relief1.org@gmail.com';
  
  $message = "";
  $message .= "<small>- Name :<strong>" . htmlspecialchars($names, ENT_QUOTES) . "</strong></small><br>\n";
