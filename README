@@ -1,1 +1,12 @@
 Relief1 teaser site
+
+Run jitsu deploy after changes are made to assets in public/
+
+To run the server locally:
+
+npm install http-server
+node server.js
+
+This will start the server on http://localhost:8080
+
+Please push to git before deploying.
