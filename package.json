@@ -1,0 +1,11 @@
+{
+  "name": "teaser",
+  "subdomain": "relief1",
+  "scripts": {
+    "start": "server.js"
+  },
+  "version": "0.0.0",
+  "dependencies": {
+    "http-server": "0.2.x"
+  }
+}
