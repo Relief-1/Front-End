@@ -418,11 +418,14 @@ body {
 --------------------------------------------------------*/
 .job_apply_btn {
 	position:relative;
-	top:215px;
-	left:10px;
+	top:35px;
+	left:11px;
 	width:160px;
 	height:35px;
 	background:url(../img/job_apply_btn.png);
+	border:none;
+	outline:none;
+	
 }
 .job_apply_btn:hover {
 	background-position:center -35px;
