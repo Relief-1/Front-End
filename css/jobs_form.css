@@ -163,11 +163,11 @@ body {
 	width:350px;
 	font-size:16px;
 	text-align:center;
-	text-shadow:0 1px 0 #DDD;
+	text-shadow:0 1px 0 #FFF;
 	padding-top:10px;
 	padding-bottom:10px;
 	background:url(../img/bg_job_title_textile2.jpg) center;
-	border:solid 1px #53648d;
+	border:solid 1px #999;
 	
 	border-top-left-radius:5px;
 	border-top-right-radius:5px;
@@ -176,9 +176,9 @@ body {
 	-webkit-border-top-right-radius:5px;
 	-webkit-border-top-left-radius:5px;
 	
-	-moz-box-shadow:inset 0 1px 0px #EEE;
-	-webkit-box-shadow:inset 0 1px 0px #EEE;
-	box-shadow:inset 0 1px 0px #EEE;
+	-moz-box-shadow:inset 0 1px 0px #FFF;
+	-webkit-box-shadow:inset 0 1px 0px #FFF;
+	box-shadow:inset 0 1px 0px #FFF;
 }
 
 /*--------------------------------------------------------

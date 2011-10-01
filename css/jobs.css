@@ -285,12 +285,12 @@ body {
 }
 .shortcut_content {
 	margin-left:20px;
-	background:url(../img/bg_job_title_textile1.png) center center;
+	background:url(../img/bg_job_title_textile2.jpg) center center;
 	font-size:14px;
 	text-shadow:0 1px 0 #DDD;
 	text-align:center;
 	padding: 10px 25px;
-	border:solid 1px #53648d;
+	border:solid 1px #999;
 	float:left;
 	
 	border-radius:5px;
@@ -377,12 +377,12 @@ body {
 .job_title_4 {
 	font-size:14px;
 	text-align:center;
-	text-shadow:0 1px 0 #DDD;
+	text-shadow:0 1px 0 #FFF;
 	padding-top:10px;
 	padding-bottom:10px;
 	color:#222;
 	background:url(../img/bg_job_title_textile.png) center;
-	border:solid 1px #666;
+	border:solid 1px #999;
 	
 	border-top-left-radius:5px;
 	border-top-right-radius:5px;
@@ -391,9 +391,9 @@ body {
 	-webkit-border-top-right-radius:5px;
 	-webkit-border-top-left-radius:5px;
 	
-	-moz-box-shadow:inset 0 1px 0px #c0d2ff;
-	-webkit-box-shadow:inset 0 1px 0px #c0d2ff;
-	box-shadow:inset 0 1px 0px #c0d2ff;
+	-moz-box-shadow:inset 0 1px 0px #FFF;
+	-webkit-box-shadow:inset 0 1px 0px #FFF;
+	box-shadow:inset 0 1px 0px #FFF;
 }
 .line {
 	height:1px;
@@ -405,26 +405,44 @@ body {
            JOB BOARD LIST DETAILS
 --------------------------------------------------------*/
 .job_detail {
-	width:150px;
+	width:160px;
+	height:195px;
 	margin-left:10px;
 	margin-top:10px;
 	font-size:11px;
 	text-shadow:0 1px 0 #FFF;
 	float:left;
 }
+.knowledge {
+	width:160px;
+	height:75px;
+	background:#BBB;
+	margin-bottom:5px;
+}
+.experience {
+	width:160px;
+	height:65px;
+	background:#BBB;
+	margin-bottom:5px;
+}
+.bonus {
+	width:160px;
+	height:45px;
+	background:#BBB;
+}
 
 /*--------------------------------------------------------
            JOB APPLY BUTTON
 --------------------------------------------------------*/
 .job_apply_btn {
-	position:relative;
-	top:35px;
-	left:11px;
 	width:160px;
 	height:35px;
 	background:url(../img/job_apply_btn.png);
 	border:none;
 	outline:none;
+	margin-left:11px;
+	margin-top:10px;
+	float:left;
 	
 }
 .job_apply_btn:hover {
