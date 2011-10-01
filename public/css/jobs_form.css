@@ -1,0 +1,371 @@
+/*		
+
+	
+	  _____      _ _       __ __ 
+	 |  __ \    | (_)     / _/_ |
+	 | |__) |___| |_  ___| |_ | |
+	 |  _  // _ \ | |/ _ \  _|| |
+	 | | \ \  __/ | |  __/ |  | |
+	 |_|  \_\___|_|_|\___|_|  |_|
+								 
+	
+	- project : relief1.org V1.0
+
+
+/*--------------------------------------------------------
+           BODY
+--------------------------------------------------------*/
+body {
+	margin:0;
+	padding:0;
+	min-height:500px;
+	min-width:500px;
+	background:url(../img/bg_noise_medium.png);
+}
+
+/*--------------------------------------------------------
+           JOB FORM CONTAINER
+--------------------------------------------------------*/
+#job_form_container {
+	margin:0 auto;
+	width:960px;
+	height:750px;
+	margin-top:40px;
+	margin-bottom:40px;
+
+	background:#FFF;
+	
+	border-radius:5px;
+	-moz-border-radius:5px;
+	-webkit-border-radius:5px;
+	
+	-moz-box-shadow:0 0 5px #999;
+	-webkit-box-shadow:0 0 5px #999;
+	box-shadow:0 0 5px #999;
+}
+/*--------------------------------------------------------
+           HEADING
+--------------------------------------------------------*/
+.heading {
+	margin:0 auto;
+	position:relative;
+	width:100%;
+	height:150px;
+	font-family:'Lucida Grande','Lucida Sans Unicode', sans-serif;
+	margin-top:40px;
+	text-align:center;
+	font-size:28px;
+	line-height:100px;
+	font-weight:bold;
+	background:url(../img/quote_shadow.jpg) center 100px no-repeat;
+	color:#444;
+}
+
+/*--------------------------------------------------------
+           HEADING
+--------------------------------------------------------*/
+.volunteer_form {
+	margin:0 auto;
+	width:350px;
+	height:510px;
+	margin-top:5px;
+	background:#DDD;
+	border:1px solid #999;
+	
+	border-radius:5px;
+	-moz-border-radius:5px;
+	-webkit-border-radius:5px;
+	
+	-moz-box-shadow:0 2px 5px #999;
+	-webkit-box-shadow:0 2px 5px #999;
+	box-shadow:0 2px 5px #999;
+}
+
+/*--------------------------------------------------------
+    FORM TITLE : TECHNICAL / DESIGN / MARKETING / CONTENT
+--------------------------------------------------------*/
+.technical {
+	position:relative;
+	top:-1px;
+	right:1px;
+	width:350px;
+	font-size:16px;
+	text-align:center;
+	text-shadow:0 1px 0 #FFF;
+	padding-top:10px;
+	padding-bottom:10px;
+	background:url(../img/bg_job_title_alu_clean.png) center;
+	border:solid 1px #999;
+	
+	border-top-left-radius:5px;
+	border-top-right-radius:5px;
+	-moz-border-radius-topleft:5px;
+	-moz-border-radius-topright:5px;
+	-webkit-border-top-right-radius:5px;
+	-webkit-border-top-left-radius:5px;
+	
+	-moz-box-shadow:inset 0 1px 0px #FFF;
+	-webkit-box-shadow:inset 0 1px 0px #FFF;
+	box-shadow:inset 0 1px 0px #FFF;
+}
+.design {
+	position:relative;
+	top:-1px;
+	right:1px;
+	width:350px;
+	font-size:16px;
+	text-align:center;
+	text-shadow:0 1px 0 #ffdba1;
+	padding-top:10px;
+	padding-bottom:10px;
+	background:url(../img/bg_job_title_clean.png) #222 center;
+	border:solid 1px #975e05;
+	
+	border-top-left-radius:5px;
+	border-top-right-radius:5px;
+	-moz-border-radius-topleft:5px;
+	-moz-border-radius-topright:5px;
+	-webkit-border-top-right-radius:5px;
+	-webkit-border-top-left-radius:5px;
+	
+	-moz-box-shadow:inset 0 1px 0px #ffdba1;
+	-webkit-box-shadow:inset 0 1px 0px #ffdba1;
+	box-shadow:inset 0 1px 0px #ffdba1;
+}
+.marketing {
+	position:relative;
+	top:-1px;
+	right:1px;
+	width:350px;
+	font-size:16px;
+	text-align:center;
+	text-shadow:0 1px 0 #c0d2ff;
+	padding-top:10px;
+	padding-bottom:10px;
+	background:url(../img/bg_job_title_paper_clean.png) center;
+	border:solid 1px #53648d;
+	
+	border-top-left-radius:5px;
+	border-top-right-radius:5px;
+	-moz-border-radius-topleft:5px;
+	-moz-border-radius-topright:5px;
+	-webkit-border-top-right-radius:5px;
+	-webkit-border-top-left-radius:5px;
+	
+	-moz-box-shadow:inset 0 1px 0px #EEE;
+	-webkit-box-shadow:inset 0 1px 0px #EEE;
+	box-shadow:inset 0 1px 0px #EEE;
+}
+.content {
+	position:relative;
+	top:-1px;
+	right:1px;
+	width:350px;
+	font-size:16px;
+	text-align:center;
+	text-shadow:0 1px 0 #FFF;
+	padding-top:10px;
+	padding-bottom:10px;
+	background:url(../img/bg_job_title_textile2.jpg) center;
+	border:solid 1px #999;
+	
+	border-top-left-radius:5px;
+	border-top-right-radius:5px;
+	-moz-border-radius-topleft:5px;
+	-moz-border-radius-topright:5px;
+	-webkit-border-top-right-radius:5px;
+	-webkit-border-top-left-radius:5px;
+	
+	-moz-box-shadow:inset 0 1px 0px #FFF;
+	-webkit-box-shadow:inset 0 1px 0px #FFF;
+	box-shadow:inset 0 1px 0px #FFF;
+}
+
+/*--------------------------------------------------------
+           CONTACT FORM
+--------------------------------------------------------*/
+#job-form {
+	margin-top:20px;
+	padding:14px;
+	float:left;
+}
+
+/* ----------- stylized ----------- */
+#stylized label{
+	display:block;
+	font-weight:bold;
+	text-align:right;
+	width:150px;
+	height:20px;
+	margin-top:-5px;
+	float:left;
+}
+input{
+	float:left;
+	font-size:16px;
+	padding-left:10px;
+	width:295px;
+	margin:0px 0 30px 10px;
+	border:none;
+		
+	-moz-border-radius:5px;
+	-webkit-border-radius:5px;
+	border-radius:5px;
+}
+.label {
+	font-size:14px;
+	color:#222;
+	text-shadow:0 1px 0 #FFF;
+	font-weight:normal;
+	margin-left:5px;
+	float:left;
+}
+.job-email {
+	text-align:left;
+	width:295px;
+	border:none;
+	margin-left:10px;
+	height:30px;
+	resize:none;
+	margin-bottom:25px;
+	margin-top:7px;
+	
+	-moz-box-shadow: 0 0 0 1px rgba(0, 0, 0, 0.4) inset, 0 2px 1px 0 rgba(0, 0, 0, 0.2) inset, 0 2px 3px 0 rgba(0, 0, 0, 0.2) inset, 0 1px 0 0 rgba(255, 255, 255, 0.8);
+	-webkit-box-shadow: 0 0 0 1px rgba(0, 0, 0, 0.4) inset, 0 2px 1px 0 rgba(0, 0, 0, 0.2) inset, 0 2px 3px 0 rgba(0, 0, 0, 0.2) inset, 0 1px 0 0 rgba(255, 255, 255, 0.8);
+	box-shadow: 0 0 0 1px rgba(0, 0, 0, 0.4) inset, 0 2px 1px 0 rgba(0, 0, 0, 0.2) inset, 0 2px 3px 0 rgba(0, 0, 0, 0.2) inset, 0 1px 0 0 rgba(255, 255, 255, 0.8);
+}
+.job-names {
+	text-align:left;
+	width:295px;
+	border:none;
+	margin-left:10px;
+	height:25px;
+	resize:none;
+	margin-bottom:15px;
+	margin-top:7px;
+	
+	-moz-box-shadow: 0 0 0 1px rgba(0, 0, 0, 0.4) inset, 0 2px 1px 0 rgba(0, 0, 0, 0.2) inset, 0 2px 3px 0 rgba(0, 0, 0, 0.2) inset, 0 1px 0 0 rgba(255, 255, 255, 0.8);
+	-webkit-box-shadow: 0 0 0 1px rgba(0, 0, 0, 0.4) inset, 0 2px 1px 0 rgba(0, 0, 0, 0.2) inset, 0 2px 3px 0 rgba(0, 0, 0, 0.2) inset, 0 1px 0 0 rgba(255, 255, 255, 0.8);
+	box-shadow: 0 0 0 1px rgba(0, 0, 0, 0.4) inset, 0 2px 1px 0 rgba(0, 0, 0, 0.2) inset, 0 2px 3px 0 rgba(0, 0, 0, 0.2) inset, 0 1px 0 0 rgba(255, 255, 255, 0.8);
+}
+.job-country {
+	text-align:left;
+	width:303px;
+	margin-left:10px;
+	resize:none;
+	margin-bottom:18px;
+	margin-top:7px;
+}
+.job-commnent {
+	text-align:left;
+	width:295px;
+	border:none;
+	font-size:16px;
+	padding-left:10px;
+	padding-top:10px;
+	height:100px;
+	resize:none;
+	margin-bottom:25px;
+	margin-left:10px;
+	margin-top:7px;
+	font-family:'Lucida Grande','Lucida Sans Unicode', sans-serif;
+	
+	-moz-border-radius:5px;
+	-webkit-border-radius:5px;
+	border-radius:5px;
+	
+	-moz-box-shadow: 0 0 0 1px rgba(0, 0, 0, 0.4) inset, 0 2px 1px 0 rgba(0, 0, 0, 0.2) inset, 0 2px 3px 0 rgba(0, 0, 0, 0.2) inset, 0 1px 0 0 rgba(255, 255, 255, 0.8);
+	-webkit-box-shadow: 0 0 0 1px rgba(0, 0, 0, 0.4) inset, 0 2px 1px 0 rgba(0, 0, 0, 0.2) inset, 0 2px 3px 0 rgba(0, 0, 0, 0.2) inset, 0 1px 0 0 rgba(255, 255, 255, 0.8);
+	box-shadow: 0 0 0 1px rgba(0, 0, 0, 0.4) inset, 0 2px 1px 0 rgba(0, 0, 0, 0.2) inset, 0 2px 3px 0 rgba(0, 0, 0, 0.2) inset, 0 1px 0 0 rgba(255, 255, 255, 0.8);
+}
+.submit_job_button {
+	background:url(../img/apply_job_btn.png) center 0px;
+	text-align:center;
+	text-shadow:0 1px 0 #FFF;
+	border:none;
+}
+.submit_job_button:hover {
+	background-position:center 81px;
+}
+.submit_job_button:active {
+	background-position:center 41px;
+}
+/*//////////////////////////////////////////////////////////*/
+/*////////////////       AJAX FORM       ////////////////*/
+/*//////////////////////////////////////////////////////////*/
+
+.name-required{
+	display:block;
+	float:right;
+	width:auto;
+	height:10px;
+	font-size:11px;
+	color:#F03;
+	position:absolute;
+	top:320px;
+	margin-left:223px;
+}
+.email-required{
+	display:block;
+	float:right;
+	text-align:right;
+	width:auto;
+	height:10px;
+	font-size:11px;
+	color:#F03;
+	position:absolute;
+	top:445px;
+	margin-left:223px;
+}
+.country-required{
+	display:block;
+	float:right;
+	width:auto;
+	height:10px;
+	font-size:11px;
+	color:#F03;
+	position:absolute;
+	top:385px;
+	margin-left:210px;
+}
+.comment-required {
+	display:block;
+	float:right;
+	width:auto;
+	height:10px;
+	font-size:11px;
+	color:#F03;
+	position:absolute;
+	top:525px;
+	margin-left:232px;
+}
+#success {
+	text-align:center;
+	font-size:30px;
+	 color:#222;
+	 font-weight:bold;
+	 text-shadow:0 1px 0px #FFF;
+	 position:relative;
+	 top:140px;
+}
+#success2 {
+	text-align:center;
+	font-size:14px;
+	 color:#222;
+	 text-shadow:0 1px 0px #FFF;
+	 position:relative;
+	 top:150px;
+}
+#error {
+	font-size:14px;
+	 color:#FFF;
+	 text-shadow:0 1px 2px #444;
+	 position:relative;
+	 top:40px;
+	 left:160px;
+}
+#submit-form {
+	width:100px;
+	cursor:pointer;
+}
+	

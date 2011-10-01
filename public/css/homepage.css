@@ -1,0 +1,399 @@
+/*		
+
+	
+	  _____      _ _       __ __ 
+	 |  __ \    | (_)     / _/_ |
+	 | |__) |___| |_  ___| |_ | |
+	 |  _  // _ \ | |/ _ \  _|| |
+	 | | \ \  __/ | |  __/ |  | |
+	 |_|  \_\___|_|_|\___|_|  |_|
+								 
+	
+	- project : relief1.org V1.0
+
+
+/*--------------------------------------------------------
+           DEFAULT
+--------------------------------------------------------*/
+div { display:block;font-family:'Lucida Grande','Lucida Sans Unicode', sans-serif;}
+p { font-size:12px; }
+.blue { color:#89CEDE;}
+.orange { color:#ff7f38;}
+.clear {clear:both;}
+
+/*--------------------------------------------------------
+           BODY
+--------------------------------------------------------*/
+body {
+	margin:0;
+	padding:0;
+	min-height:500px;
+	min-width:500px;
+	background:#111 url(../img/bg3.jpg) center -20px no-repeat;
+}
+
+/*--------------------------------------------------------
+           WRAPPER
+--------------------------------------------------------*/
+#wrapper {
+	margin:0 auto;
+	width:600px;
+	height:450px;
+}
+
+/*--------------------------------------------------------
+          MAIN FOOTER
+--------------------------------------------------------*/
+#footer {
+	width:100%;
+	margin:0 auto;
+	float:left;
+}
+#main_footer {
+	width:100%;
+	height:190px;
+	padding-top:40px;
+	background:url(../img/textile_footer.png);
+	z-index:9999;
+	
+	-moz-box-shadow:inset 0 5px 15px #222;
+	-webkit-box-shadow:inset 0 5px 15px #222;
+	box-shadow:inset 0 5px 15px #222;
+}
+.main_footer_container {
+	margin:0 auto;
+	width:960px;
+	height:180px;
+}
+.main_footer_title {
+	display:block;
+	width:150px;
+	margin-bottom:10px;
+	padding-bottom:5px;
+	border-bottom:dotted 1px #999;
+	color:#FFF;
+	font-size:16px;
+	font-weight:bold;
+	float:left;
+}
+.main_footer_text {
+	display:block;
+	width:155px;
+	height:140px;
+	margin-left:100px;
+	margin-top:-20px;
+	font-size:12px;
+	color:#DDD;
+	text-shadow:0 1px 0 #222;
+	float:left;
+}
+.footer_link_blog {
+	position:relative;
+	top:-35px;
+	width:20px;
+	height:20px;
+	background:url(../img/footer_icon_blog.png) center center;
+	float:right;
+}
+.footer_link_job {
+	position:relative;
+	top:-35px;
+	right:5px;
+	width:20px;
+	height:20px;
+	background:url(../img/footer_icon_job.png) center center;
+	float:right;
+}
+.footer_link_sponsor {
+	position:relative;
+	top:-35px;
+	right:5px;
+	width:20px;
+	height:20px;
+	background:url(../img/footer_icon_sponsor.png) center center;
+	float:right;
+}
+.footer_link_about {
+	position:relative;
+	top:-35px;
+	right:5px;
+	width:20px;
+	height:20px;
+	background:url(../img/footer_icon_about.png) center center;
+	float:right;
+}
+.footer_link {
+	text-decoration:none;
+	color:#89CEDE;
+}
+.footer_link:hover {
+	text-decoration:underline;
+}
+.legal {
+	position:relative;
+	top:20px;
+	margin:0 auto;
+	width:960px;
+	height:35px;
+	color:#777;
+	font-size:11px;
+	text-align:center;
+	text-shadow:0 1px 0 #222;
+}	
+
+/*--------------------------------------------------------
+    IMAGINE BEEING A SURVIVOR / VOLUNTEER / NON-PROFIT
+--------------------------------------------------------*/
+#footer_features {
+	position:relative;
+	top:130px;
+	width:100%;
+	height:80px;
+	color:#FFF;
+	background:url(../img/bg_email1.png);
+	z-index:9998;
+	cursor:default;
+}
+.footer_container {
+	position:relative;
+	margin:0 auto;
+	width:454px;
+	height:60px;
+	top:8px;
+	text-align:center;
+	background:#222 url(../img/footer_imagine_pressed.png) center top;
+	border:solid 1px #000;
+
+	border-radius:10px;
+	-moz-border-radius:10px;
+	-webkit-border-radius:10px;
+}
+.imagine {
+	position:relative;
+	top:100px;
+	width:100%;
+	font-size:28px;
+	font-family:Georgia, "Times New Roman", Times, serif;
+	font-weight:bold;
+	font-style:italic;
+	text-align:center;
+	color:#FFF;
+	text-shadow:0 0px 30px #FFF;
+	z-index:9999;
+}
+.footer_text {
+	color:#111;
+	text-shadow:0 1px 0 #FFF;
+	line-height:60px;
+	font-size:14px;
+	display:inline;
+	cursor:pointer;
+	float:left;
+}
+.being_survivor {
+	font-family:Georgia, "Times New Roman", Times, serif;
+	width:150px;
+	height:60px;
+	float:left;
+	border-left:none;
+	border-right:solid 1px #333;
+	
+	border-top-left-radius:9px;
+	border-bottom-left-radius:9px;
+	-moz-border-radius-topleft:9px;
+	-moz-border-radius-bottomleft:9px;
+	-webkit-border-top-left-radius:9px;
+	-webkit-border-bottom-left-radius:9px;
+}
+.being_survivor:active {
+	background:url(../img/footer_imagine_pressed.png) center -80px;
+}
+.active {
+	background:url(../img/footer_imagine_pressed.png) center -80px;
+}
+.being_survivor:visited {
+	color:#111;
+}
+.being_volunteer {
+	font-family:Georgia, "Times New Roman", Times, serif;
+	width:150px;
+	height:60px;
+	float:left;
+	border-left:solid 1px #FFF;
+	border-right:solid 1px #333;
+}
+.being_volunteer:active {
+	background:url(../img/footer_imagine_pressed.png) center -80px;
+}
+.being_organization {
+	font-family:Georgia, "Times New Roman", Times, serif;
+	width:150px;
+	height:60px;
+	float:left;
+	border-left:solid 1px #FFF;
+	border-right:none;
+	
+	border-top-right-radius:9px;
+	border-bottom-right-radius:9px;
+	-moz-border-radius-topright:9px;
+	-moz-border-radius-bottomright:9px;
+	-webkit-border-top-right-radius:9px;
+	-webkit-border-bottom-right-radius:9px;
+}
+.being_organization:active {
+	background:url(../img/footer_imagine_pressed.png) center -80px;
+}
+
+/*--------------------------------------------------------
+           HEADING
+--------------------------------------------------------*/
+.heading {
+	width:580px;
+	color:#FFF;
+	padding-left:10px;
+	padding-right:10px;
+	padding-top:10px;
+	font-weight:bold;
+	font-size:14px;
+	text-align:center;
+}
+.black_block {
+	position:relative;
+	top:293px;
+ 	width:598px;
+	height:223px;
+	background:url(../img/bloc_home.png) no-repeat;
+	text-align:center;
+	
+	border-radius:10px;
+	-moz-border-radius:10px;
+	-webkit-border-radius:10px;
+	
+	
+	box-shadow:0 5px 10px #000;
+	-moz-box-shadow: 0 5px 10px #000;
+	-webkit-box-shadow: 0 5px 10px #000;
+}
+
+/*--------------------------------------------------------
+           JOIN US
+--------------------------------------------------------*/
+#subscribe_container {
+	position:relative;
+	margin:0 auto;
+	margin-top:-10px;
+	width:600px;
+	height:80px;
+	z-index:998;
+	
+	border-radius:5px;
+	-moz-border-radius:5px;
+	-webkit-border-radius:5px;
+}
+.subscribe_form_container {
+	margin: 0 auto;
+	position:relative;
+	width:550px;
+	height:50px;
+}
+.input_email {
+	width:305px;
+	height:25px;
+	margin-top:2px;
+	margin-left:45px;
+	border:none;
+	font-size:14px;
+	color:#000;
+	background:#FFF;
+	padding:5px 10px;
+	cursor:text;
+	float:left;
+	
+	-moz-border-radius:5px;
+	-webkit-border-radius:5px;
+	border-radius:5px;
+	
+	-moz-box-shadow: 0 0 0 1px #999 inset, 0 1px 1px 0 #555 inset, 0 1px 0 0 #FFF;
+	-webkit-box-shadow: 0 0 0 1px #999 inset, 0 1px 1px 0 #555 inset, 0 1px 0 0 #FFF;
+	box-shadow: 0 0 0 1px #999 inset, 0 1px 1px 0 #555 inset, 0 1px 0 0 #FFF;
+}
+.join_btn {
+	width:130px;
+	height:38px;
+	margin-left:20px;
+	margin-top:1px;
+	background:url(../img/button_join.png) center top no-repeat;
+	font-size:18px;
+	color:#222;
+	text-shadow:0 1px 0px #ffeabe;
+	border:none;
+	outline:none;
+	cursor:pointer;
+	float:left;
+}
+.join_btn:hover {
+	background-position: center -39px;
+}
+.join_btn:active {
+	text-shadow:0 1px 0px #ffeabe;
+	background-position:center -79px;
+	position:relative;
+	top:1px;
+}
+
+/*--------------------------------------------------------
+           SOCIAL MEDIAS
+--------------------------------------------------------*/
+.spread_word {
+	display:none;
+	position:absolute;
+	width:135px;
+	height:20px;
+	padding-top:8px;
+	background:url(../img/spread_word.png) center center no-repeat;
+	right:130px;
+	bottom:24px;
+	font-size:12px;
+	line-height:11px;
+	text-shadow:0 -2px 0 #000;
+}
+.footer_twitter {
+	display:none;
+	position:relative;
+	right:17px;
+	bottom:37px;
+	width:32px;
+	height:32px;
+	background:url(../img/twitter.png) center top;
+	float:right;
+	cursor:pointer;
+}
+.footer_twitter:active {
+	background-position:center bottom;
+}
+.footer_facebook {
+	display:none;
+	position:relative;
+	right:90px;
+	bottom:37px;
+	width:32px;
+	height:32px;
+	background:url(../img/facebook.png) center top;
+	float:right;
+	cursor:pointer;
+}
+.footer_facebook:active {
+	background-position:center bottom;
+}
+
+/*--------------------------------------------------------
+           PHOTO CREDIT
+--------------------------------------------------------*/
+.photo_credit {
+	position:relative;
+	top:120px;
+	right:50px;
+	color:#666;
+	font-size:9px;
+	float:right;
+}
