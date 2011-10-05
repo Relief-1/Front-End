@@ -16,10 +16,12 @@
 				$(".footer_twitter").delay(1650).fadeIn('fast');
 				$(".spread_word").delay(1650).fadeIn('fast');
 				$(".photo_credit").fadeIn('fast');
+				$(".being_survivor").addClass('active')
+
 			});
     
-    // HIDE INPUT'S VALUE SCRIPT
-                    window.onload = function() {
+    	// HIDE INPUT'S VALUE SCRIPT
+        window.onload = function() {
               applyDefaultValue(document.getElementById('email','email2'), 'enter your email to receive updates');
             }
             function applyDefaultValue(elem, val) {
