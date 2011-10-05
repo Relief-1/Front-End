@@ -418,7 +418,7 @@
                     We are a worldwide team of like-minded people focused on making a difference.<br/><br/><a class="footer_link" href="about_us.html">Learn more About Us</a>
                 </div>
                 <div class="legal">
-               Made with love from all around the world. Copyright &copy; 2011 Relief1.<br/>Hosted by <a style="color:#777;" href="http://nodejitsu.com/">(sponsor)</a><br/>
+               Made with love from all around the world.<br /> Copyright © 2011 Relief1.
                 </div>
                 
             </div>
