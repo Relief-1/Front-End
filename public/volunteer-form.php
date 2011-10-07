@@ -105,7 +105,7 @@
                     <li><a href="sponsors.html">Sponsors</a></li>
                     <li><a href="about-us.html">Our Team</a></li>
                     <li><a href="join-us.html" style="color:#89CEDE;">Join Us</a></li>
-                    <li><a href=""> Blog</a></li>
+                    <li><a href="/blog"> Blog</a></li>
                     <li><a href="index.html">Home</a></li>
                 </ul>
             </div>
