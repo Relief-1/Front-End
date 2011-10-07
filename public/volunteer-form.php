@@ -403,15 +403,15 @@
             
                 <div class="main_footer_text" style="margin-left:20px;">
                     <div class="main_footer_title">Blog</div><div class="footer_link_blog">&nbsp;</div>
-                    Keep up on the latest news, progress and what we are striving to achieve at Relief1. <br/><br/><a class="footer_link" href="#">Read our Blog</a>
+                    Keep up on the latest news, progress and what we are striving to achieve at Relief1. <br/><br/><a class="footer_link" href="/blog">Read our Blog</a>
                 </div>
                 <div class="main_footer_text">
                     <div class="main_footer_title">Help Us</div><div class="footer_link_job">&nbsp;</div>
-                    If making a difference in the world matters to you, we have many opportunities to help. <br/><br/><a class="footer_link" href="#">Join our Team</a>
+                    If making a difference in the world matters to you, we have many opportunities to help. <br/><br/><a class="footer_link" href="join-us.html">Join our Team</a>
                 </div>
  				<div class="main_footer_text">
                     <div class="main_footer_title">Partners</div><div class="footer_link_sponsor">&nbsp;</div>
-                    Our worldwide network of partners and sponsors help make Relief1 a reality.<br/><br/><a class="footer_link" href="#">Checkout our Partners</a>
+                    Our worldwide network of partners and sponsors help make Relief1 a reality.<br/><br/><a class="footer_link" href="sponsors.html">Checkout our Partners</a>
                 </div>
                  <div class="main_footer_text">
                     <div class="main_footer_title">About Us</div><br/><div class="footer_link_about">&nbsp;</div>
