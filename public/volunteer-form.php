@@ -105,7 +105,7 @@
                     <li><a href="sponsors.html">Sponsors</a></li>
                     <li><a href="about-us.html">Our Team</a></li>
                     <li><a href="join-us.html" style="color:#89CEDE;">Join Us</a></li>
-                    <li><a href="/blog"> Blog</a></li>
+                    <li><a href="http://blog.relief1.org/"> Blog</a></li>
                     <li><a href="index.html">Home</a></li>
                 </ul>
             </div>
@@ -403,7 +403,7 @@
             
                 <div class="main_footer_text" style="margin-left:20px;">
                     <div class="main_footer_title">Blog</div><div class="footer_link_blog">&nbsp;</div>
-                    Keep up on the latest news, progress and what we are striving to achieve at Relief1. <br/><br/><a class="footer_link" href="/blog">Read our Blog</a>
+                    Keep up on the latest news, progress and what we are striving to achieve at Relief1. <br/><br/><a class="footer_link" href="http://blog.relief1.org/">Read our Blog</a>
                 </div>
                 <div class="main_footer_text">
                     <div class="main_footer_title">Help Us</div><div class="footer_link_job">&nbsp;</div>
