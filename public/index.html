@@ -49,7 +49,8 @@
 				  success: function(msg){
 				  	if (msg == 'sent'){
 				 			$('#success').html('You\'re awesome!') 	;
-				 			$('#success2').html('We\'ll get back to you as soon as possible.') 	;
+				 			$('#success2').html('We\'ll get back to you as soon as we lunch in private beta.') 	;
+							$('.heading').hide();
 							$('#signup_form').hide();
 				 		}else{
 				 			$('#error').html('Message failed. Please Try Again.') 	;	

@@ -16,8 +16,6 @@
  $headers .= "Reply-To: " .  $email . "\r\n";
  $message = utf8_decode($message);  mail($to, $email, $message, $headers);
  
-
-
  
  if ($message){
  	  echo 'sent';
