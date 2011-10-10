@@ -1,23 +1,6 @@
      // PAGE LOADING TRANSITIONS
 	 $(document).ready(function() {
-				$(".black_block").css("display", "none"); 
-				$(".black_block_ribbon").css("display", "none"); 
-				$(".imagine").css("display", "none");
-				$(".footer_container").css("display", "none");
-				$(".photo_credit").css("display", "none");
-
-				$(".photo_credit").fadeIn('fast');
-				$(".black_block").delay(400).fadeIn(500);
-				$(".black_block_ribbon").delay(400).fadeIn(500);
-				$(".imagine:first").delay(1000).slideDown();
-				$("#footer_features").delay(1250).fadeIn('fast');
-				$(".footer_container").delay(1250).fadeIn('fast');
-				$(".footer_facebook").delay(1650).fadeIn('fast');
-				$(".footer_twitter").delay(1650).fadeIn('fast');
-				$(".spread_word").delay(1650).fadeIn('fast');
-				$(".photo_credit").fadeIn('fast');
 				$(".being_survivor").addClass('active')
-
 			});
     
     	// HIDE INPUT'S VALUE SCRIPT
