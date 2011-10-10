@@ -19,6 +19,50 @@
 	
     <!-- CUSTOM SCRIPTS -->
 	<script type="text/javascript" src="js/index.js"></script>
+    
+    
+    <script type="text/javascript">
+     $(document).ready(function(){
+ 		$('#signup_submit').click(function(){
+ 		
+ 	 var reg = /^([A-Za-z0-9_\-\.])+\@([A-Za-z0-9_\-\.])+\.([A-Za-z]{2,4})$/;
+  	 var email_address = $('#signup_form [name="signup_email"]').val();
+   	 var data_html ='' ;
+				
+ 				if(email_address == ""){
+ 					 $('.email-required').html('Email is required');
+ 				}else if(reg.test(email_address) == false){
+ 					 $('.email-required').html('Invalid Email Address');
+ 				}else{
+ 					 $('.email-required').html('');
+ 				}
+ 				
+ 				
+ 		if(reg.test(email_address) != false){
+ 		
+ 			data_html = "&email_address="+ email_address;
+ 			 			
+ 		  $.ajax({
+				  type: 'POST',
+				  url: 'signup-send.php',
+				  data: data_html,
+				  success: function(msg){
+				  	if (msg == 'sent'){
+				 			$('#success').html('You\'re awesome!') 	;
+				 			$('#success2').html('We\'ll get back to you as soon as possible.') 	;
+							$('#signup_form').hide();
+				 		}else{
+				 			$('#error').html('Message failed. Please Try Again.') 	;	
+				 		}
+				  }
+			});
+ 		
+ 	  }
+ 	  		
+	 	return false;
+ 	})
+})
+</script>
      
     
 <!-- HEAD END -->
@@ -64,9 +108,13 @@
  
             <!-- SUBSCRIBE CONTAINER START -->
             <div id="subscribe_container">
-                <form class="subscribe_form_container" action="" method="">
-                    <input type="email" id="email" class="input_email" />
-                    <input type="submit" value="Sign Up" class="join_btn" />
+            
+            <div id="success"></div>
+            <div id="success2"></div>
+            
+                <form class="subscribe_form_container" id="signup_form" action="" method="">
+                    <input type="email" id="email" name="signup_email" class="input_email" /><span class="email-required"></span>
+                    <input type="submit" value="Sign Up" id="signup_submit" class="join_btn" />
                 </form>
             </div>
             <!-- SUBSCRIBE CONTAINER END -->
