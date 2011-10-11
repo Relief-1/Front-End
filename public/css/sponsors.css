@@ -131,7 +131,6 @@ body {
 	float:left;
 	text-align:center;
 	line-height:40px;
-	text-shadow:0 1px 0px #fbdd9e;
 	margin:20px 0px;
 	cursor:pointer;
 	
@@ -145,4 +144,9 @@ body {
 .support_btn:active {
 	background-position:center -80px;
 	text-shadow:0 -1px 0px #fbdd9e;
+}
+.support_mailto {
+	color:#111;
+	text-decoration:none;
+	text-shadow:0 1px 0px #fbdd9e;
 }
