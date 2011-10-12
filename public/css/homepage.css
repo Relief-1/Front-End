@@ -397,6 +397,37 @@ body {
 	font-size:9px;
 	float:right;
 }
+/*--------------------------------------------------------
+           ARROWS
+--------------------------------------------------------*/
+.arrows_survivor {
+	margin:0 auto;
+	position:relative;
+	bottom:100px;
+	width:297px;
+	height:39px;
+	background:url(../img/arrows.png) no-repeat;
+}
+.arrows_volunteer {
+	margin:0 auto;
+	position:relative;
+	bottom:100px;
+	width:297px;
+	height:39px;
+	background:url(../img/arrows.png) center -80px no-repeat;
+}
+.arrows_nonprofit {
+	margin:0 auto;
+	position:relative;
+	bottom:100px;
+	width:297px;
+	height:39px;
+	background:url(../img/arrows.png) center -40px no-repeat;
+}
+
+/*--------------------------------------------------------
+           SIGNUP CONFIRMATIONS (or not)
+--------------------------------------------------------*/
 .email-required {
 	position:relative;
 	right:165px;
@@ -408,7 +439,7 @@ body {
 #success {
 	font-family:Georgia, "Times New Roman", Times, serif;
 	position:relative;
-	top:45px;
+	top:50px;
 	color:#FFF;
 	text-shadow:0 1px 0 #111;
 	font-size:56px;
@@ -417,7 +448,7 @@ body {
 }
 #success2 {
 	position:relative;
-	top:50px;
+	top:70px;
 	color:#FFF;
 	text-shadow:0 1px 0 #111;
 	font-size:16px;

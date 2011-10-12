@@ -37,7 +37,6 @@
  					 $('.email-required').html('');
  				}
  				
- 				
  		if(reg.test(email_address) != false){
  		
  			data_html = "&email_address="+ email_address;
@@ -113,9 +112,10 @@
             <div id="success"></div>
             <div id="success2"></div>
             
-                <form class="subscribe_form_container" id="signup_form" action="" method="">
-                    <input type="email" id="email" name="signup_email" class="input_email" /><span class="email-required"></span>
+                <form class="subscribe_form_container" id="signup_form">
+                    <input type="email" id="email" name="signup_email" class="input_email" />
                     <input type="submit" value="Sign Up" id="signup_submit" class="join_btn" />
+                    <span class="email-required"></span>
                 </form>
             </div>
             <!-- SUBSCRIBE CONTAINER END -->
@@ -124,25 +124,30 @@
         		
     <!-- WRAPPER END  -->     
     </div>
-    
      	<div class="imagine">Imagine being a...</div>
         <div class="photo_credit">photo <a style="color:#666;" href="http://www.9artphoto.com/home"> Mark Neuenschwander</a>. Joplin, Missouri, May 2011.</div>
    
-<div class="clear"></div>
+	<div class="clear"></div>
+
 
   <!-- FOOTER FIRST PAGE -->
     <div id="footer_features"> 
+    
   <a id="survivor"></a> 
   <a id="non-profit"></a> 
   <a id="volunteer"></a> 
-    	<div class="footer_container">
-        
+    	
+        <div class="footer_container">
         	<div class="footer_text">
                 <a style="text-decoration:none; color:#111;" href="#survivor" rel="" id="survivor" class="anchorLink"><div class="being_survivor">Survivor</div></a>
                 <a style="text-decoration:none; color:#111;" href="#volunteer" rel="" id="volunteer" class="anchorLink2"><div class="being_volunteer">Volunteer</div></a>
                 <a style="text-decoration:none; color:#111;" href="#non-profit" rel="" id="non-profit" class="anchorLink3"><div class="being_organization">Non-Profit</div></a>
         	</div>
         </div>
+          
+   			<div class="arrows_survivor"></div>
+            <div class="arrows_volunteer"></div>
+            <div class="arrows_nonprofit"></div>
         <div class="spread_word">spread the word on</div>
         <div class="footer_facebook" title="Facebook"></div>
         <div class="footer_twitter" title="Twitter"></div>

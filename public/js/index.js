@@ -1,6 +1,8 @@
      // PAGE LOADING TRANSITIONS
 	 $(document).ready(function() {
 				$(".being_survivor").addClass('active')
+				$('.arrows_volunteer').hide('fast')
+				$('.arrows_nonprofit').hide('fast')	
 			});
     
     	// HIDE INPUT'S VALUE SCRIPT
@@ -79,6 +81,32 @@
 			navItems.click(function(){
 				 navItems.removeClass('active')
 			 $(this).addClass('active')
+			});
+		})
+		
+		// ARROWS LEFT 
+		$(document).ready(function() {
+			var btnLeft = $('.being_survivor');
+			var btnMiddle = $('.being_volunteer');
+			var btnRight = $('.being_organization');
+			var arrowLeft = $('.arrows_survivor')
+			var arrowMiddle = $('.arrows_volunteer')
+			var arrowRight = $('.arrows_nonprofit')
+			
+			btnLeft.click(function(){
+				 arrowLeft.delay(150).fadeIn('fast')
+				 arrowMiddle.fadeOut('fast')
+				 arrowRight.fadeOut('fast')
+			});
+			btnMiddle.click(function(){
+				 arrowLeft.fadeOut('fast')
+				 arrowMiddle.delay(150).fadeIn('fast')
+				 arrowRight.fadeOut('fast')
+			});
+			btnRight.click(function(){
+				 arrowLeft.fadeOut('fast')
+				 arrowMiddle.fadeOut('fast')
+				 arrowRight.delay(150).fadeIn('fast')
 			});
 		})
     
