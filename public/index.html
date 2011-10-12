@@ -41,12 +41,13 @@
  		
  			data_html = "&email_address="+ email_address;
  			 			
- 		  $.ajax({
+ 		$.ajax({
 				  type: 'POST',
 				  url: 'signup-send.php',
 				  data: data_html,
 				  success: function(msg){
 				  	if (msg == 'sent'){
+						alert(msg);
 				 			$('#success').html('You\'re awesome!') 	;
 				 			$('#success2').html('We\'ll get back to you as soon as we lunch in private beta.') 	;
 							$('.heading').hide();

@@ -1,10 +1,9 @@
 <?php
- $names = $_POST['names'];
- $country = $_POST['country'];
  $email = $_POST['email_address'];
  $comment = $_POST['comment'];
  $ip = $_SERVER['REMOTE_ADDR'];
- $to ='carterl.092e8ea3@e-mail.marketing.relief1.podio.com';
+ $to ='adrien.olczak@gmail.com';
+ //$to ='carterl.092e8ea3@e-mail.marketing.relief1.podio.com';
  
  $message = "";
  $message .= "<small>- Email : " . htmlspecialchars($email, ENT_QUOTES) . "<br>\n</small>";
@@ -16,13 +15,12 @@
  $headers .= "Reply-To: " .  $email . "\r\n";
  $message = utf8_decode($message);  mail($to, $email, $message, $headers);
  
+ require 'insert-database.php';
  
  if ($message){
- 	  echo 'sent';
+  echo 'sent';
  }else{
- 	  echo 'Message failed';
+  echo 'failed';
  }
- 
- 
- 
+ exit;
 ?>
