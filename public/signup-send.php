@@ -2,8 +2,7 @@
  $email = $_POST['email_address'];
  $comment = $_POST['comment'];
  $ip = $_SERVER['REMOTE_ADDR'];
- $to ='adrien.olczak@gmail.com';
- //$to ='carterl.092e8ea3@e-mail.marketing.relief1.podio.com';
+ $to ='carterl.092e8ea3@e-mail.marketing.relief1.podio.com';
  
  $message = "";
  $message .= "<small>- Email : " . htmlspecialchars($email, ENT_QUOTES) . "<br>\n</small>";
