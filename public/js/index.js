@@ -94,19 +94,19 @@
 			var arrowRight = $('.arrows_nonprofit')
 			
 			btnLeft.click(function(){
-				 arrowLeft.delay(150).fadeIn('fast')
+				 arrowLeft.delay(200).fadeIn('fast')
 				 arrowMiddle.fadeOut('fast')
 				 arrowRight.fadeOut('fast')
 			});
 			btnMiddle.click(function(){
 				 arrowLeft.fadeOut('fast')
-				 arrowMiddle.delay(150).fadeIn('fast')
+				 arrowMiddle.delay(200).fadeIn('fast')
 				 arrowRight.fadeOut('fast')
 			});
 			btnRight.click(function(){
 				 arrowLeft.fadeOut('fast')
 				 arrowMiddle.fadeOut('fast')
-				 arrowRight.delay(150).fadeIn('fast')
+				 arrowRight.delay(200).fadeIn('fast')
 			});
 		})
     
