@@ -170,7 +170,7 @@ body {
 }
 .imagine {
 	position:relative;
-	top:100px;
+	top:85px;
 	width:100%;
 	font-size:28px;
 	font-family:Georgia, "Times New Roman", Times, serif;
@@ -403,7 +403,7 @@ body {
 .arrows_survivor {
 	margin:0 auto;
 	position:relative;
-	bottom:100px;
+	bottom:108px;
 	width:297px;
 	height:39px;
 	background:url(../img/arrows.png) no-repeat;
@@ -411,7 +411,7 @@ body {
 .arrows_volunteer {
 	margin:0 auto;
 	position:relative;
-	bottom:100px;
+	bottom:108px;
 	width:297px;
 	height:39px;
 	background:url(../img/arrows.png) center -80px no-repeat;
@@ -419,7 +419,7 @@ body {
 .arrows_nonprofit {
 	margin:0 auto;
 	position:relative;
-	bottom:100px;
+	bottom:108px;
 	width:297px;
 	height:39px;
 	background:url(../img/arrows.png) center -40px no-repeat;
