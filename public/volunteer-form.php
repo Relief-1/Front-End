@@ -98,7 +98,7 @@
 <div id="header">
     	<div id="header_container">
         
-        	<div id="logo"></div>
+        	<div id="logo"><img src="img/relief1_logo.png" width="106" height="43" alt="Relief1 logo" border="0" /></div>
             <div id="nav">
                 <ul style="float:right; margin-top:16px;">
                     <li><a href="contact.html">Contact</a></li>
