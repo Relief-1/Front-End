@@ -41,6 +41,7 @@ p { font-size:12px; }
 #logo {
 	width:200px;
 	height:65px;
+	margin-left:10px;
 	float:left;
 }
 #nav {
